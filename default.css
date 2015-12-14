@@ -7,11 +7,11 @@
 	{
 		margin: 0px;
 		padding: 0px;
-		background: #16A085;
-		font-family: 'Questrial', sans-serif;
-		font-size: 12pt;
-		color: rgba(0,0,0,.6);
-		-webkit-text-size-adjust: 100%;
+		background: #333333;
+		font-family: 'Varela', sans-serif;
+		font-size: 11pt;
+		font-weight: 300;
+		color: #656565;
 	}
 	
 	
@@ -19,7 +19,8 @@
 	{
 		margin: 0;
 		padding: 0;
-		color: #404040;
+		font-weight: 700;
+		color: #2B3F48;
 	}
 	
 	p, ol, ul
@@ -33,6 +34,15 @@
 		list-style: none;
 	}
 	
+	ul.actions
+	{
+		text-align: center;
+	}
+		
+		ul.actions li
+		{
+		}
+	
 	p
 	{
 		line-height: 180%;
@@ -44,7 +54,7 @@
 	
 	a
 	{
-		color: #16A085;
+		color: #0000FF;
 	}
 	
 	a:hover
@@ -52,111 +62,13 @@
 		text-decoration: none;
 	}
 	
-
 	.container
 	{
-		margin: 0px auto;
-		width: 1200px;
+		overflow: hidden;
+		margin: 0em auto;
+		width: 1000px;
 	}
 	
-
-/*********************************************************************************/
-/* Form Style                                                                    */
-/*********************************************************************************/
-
-		form
-		{
-		}
-		
-			form label
-			{
-				display: block;
-				text-align: left;
-				margin-bottom: 0.5em;
-			}
-			
-			form .submit
-			{
-				margin-top: 2em;
-				line-height: 1.5em;
-				font-size: 1.3em;
-			}
-		
-			form input.text,
-			form select,
-			form textarea
-			{
-				position: relative;
-				-webkit-appearance: none;
-				display: block;
-				border: 0;
-				background: #fff;
-				background: rgba(255,255,255,0.75);
-				width: 100%;
-				border-radius: 0.50em;
-				margin: 1em 0em;
-				padding: 1.50em 1em;
-				box-shadow: inset 0 0.1em 0.1em 0 rgba(0,0,0,0.05);
-				border: solid 1px rgba(0,0,0,0.15);
-				-moz-transition: all 0.35s ease-in-out;
-				-webkit-transition: all 0.35s ease-in-out;
-				-o-transition: all 0.35s ease-in-out;
-				-ms-transition: all 0.35s ease-in-out;
-				transition: all 0.35s ease-in-out;
-				font-size: 1em;
-				outline: none;
-			}
-
-				form input.text:hover,
-				form select:hover,
-				form textarea:hover
-				{
-				}
-
-				form input.text:focus,
-				form select:focus,
-				form textarea:focus
-				{
-					box-shadow: 0 0 2px 1px #E0E0E0;
-					background: #fff;
-				}
-				
-				form textarea
-				{
-					min-height: 12em;
-				}
-
-				form .formerize-placeholder
-				{
-					color: #555 !important;
-				}
-
-				form ::-webkit-input-placeholder
-				{
-					color: #555 !important;
-				}
-
-				form :-moz-placeholder
-				{
-					color: #555 !important;
-				}
-
-				form ::-moz-placeholder
-				{
-					color: #555 !important;
-				}
-
-				form :-ms-input-placeholder
-				{
-					color: #555 !important;
-				}
-
-				form ::-moz-focus-inner
-				{
-					border: 0;
-				}
-
-
 /*********************************************************************************/
 /* Image Style                                                                   */
 /*********************************************************************************/
@@ -164,7 +76,6 @@
 	.image
 	{
 		display: inline-block;
-		border: 1px solid rgba(0,0,0,.1);
 	}
 	
 	.image img
@@ -177,7 +88,7 @@
 	{
 		display: block;
 		width: 100%;
-		margin: 0 0 3em 0;
+		margin: 0 0 2em 0;
 	}
 	
 	.image-left
@@ -202,8 +113,20 @@
 /* List Styles                                                                   */
 /*********************************************************************************/
 
-	ul.style1
+	ul.staff
 	{
+		margin-bottom: 3em;
+	}
+
+	ul.staff li
+	{
+		display: inline-block;
+	}
+	
+	ul.staff li img
+	{
+		width: 80%;
+		border-radius: 50%;
 	}
 
 
@@ -221,7 +144,7 @@
 	ul.contact li
 	{
 		display: inline-block;
-		padding: 0em 0.10em;
+		padding: 0em 0.30em;
 		font-size: 1em;
 	}
 	
@@ -240,14 +163,20 @@
 	ul.contact li a:before
 	{
 		display: inline-block;
-		background: #1ABC9C;
+		background: #3f3f3f;
 		width: 40px;
 		height: 40px;
 		line-height: 40px;
+		border-radius: 20px;
 		text-align: center;
 		color: #FFFFFF;
 	}
 	
+	ul.contact li a.icon-twitter:before { background: #2DAAE4; }
+	ul.contact li a.icon-facebook:before { background: #39599F; }
+	ul.contact li a.icon-dribbble:before { background: #C4376B;	}
+	ul.contact li a.icon-tumblr:before { background: #31516A; }
+	ul.contact li a.icon-rss:before { background: #F2600B; }
 
 /*********************************************************************************/
 /* Button Style                                                                  */
@@ -256,12 +185,13 @@
 	.button
 	{
 		display: inline-block;
-		margin-top: 2em;
-		padding: 0.8em 2em;
-		background: #16A085;
-		line-height: 1.8em;
-		letter-spacing: 1px;
+		padding: 0em 3em;
+		background: #009E2D;
+		letter-spacing: 0.20em;
+		line-height: 4em;
 		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 400;
 		font-size: 1em;
 		color: #FFF;
 	}
@@ -269,7 +199,7 @@
 	.button:before
 	{
 		display: inline-block;
-		background: #8DCB89;
+		background: #FFC31F;
 		margin-right: 1em;
 		width: 40px;
 		height: 40px;
@@ -279,10 +209,6 @@
 		color: #272925;
 	}
 	
-	.button-small
-	{
-	}
-		
 /*********************************************************************************/
 /* Heading Titles                                                                */
 /*********************************************************************************/
@@ -294,13 +220,87 @@
 	
 	.title h2
 	{
-		font-size: 2.8em;
+		text-transform: uppercase;
+		font-size: 2.7em;
 	}
 	
 	.title .byline
 	{
-		font-size: 1.1em;
+		font-size: 1.7em;
 		color: #6F6F6F;
+	}
+		
+/*********************************************************************************/
+/* 4-column                                                                      */
+/*********************************************************************************/
+
+	.box1,
+	.box2,
+	.box3,
+	.box4
+	{
+		width: 235px;
+	}
+	
+	.box1,
+	.box2,
+	.box3,
+	{
+		float: left;
+		margin-right: 20px;
+	}
+	
+	.box4
+	{
+		float: right;
+	}
+	
+/*********************************************************************************/
+/* 3-column                                                                      */
+/*********************************************************************************/
+
+	.boxA,
+	.boxB,
+	.boxC
+	{
+		width: 320px;
+	}
+
+	.boxA,
+	.boxB
+	{
+		float: left;
+		margin-right: 20px;
+	}
+	
+	.boxC
+	{
+		float: right;
+	}
+
+/*********************************************************************************/
+/* 2-column                                                                      */
+/*********************************************************************************/
+
+	.tbox1,
+	.tbox2
+	{
+		width: 575px;
+	}
+	
+	.tbox1
+	{
+		float: left;
+	}
+
+	.tbox2
+	{
+		float: right;
+	}
+	
+	#wrapper
+	{
+		background: #FFF;
 	}
 
 /*********************************************************************************/
@@ -309,13 +309,13 @@
 
 	#header-wrapper
 	{
-		overflow: hidden;
-		padding: 2em 0em;
-		background: url(images/bg01.jpg) repeat-x center top;
+		background: #333333;
 	}
 
 	#header
 	{
+		position: relative;
+		padding: 3em 0em;
 	}
 
 /*********************************************************************************/
@@ -324,36 +324,22 @@
 
 	#logo
 	{
+		position: absolute;
+		top: 1em;
+		left: 0;
 	}
 	
 	#logo h1
 	{
-		display: inline-block;
-		margin-bottom: 0.20em;
-		padding: 0.20em 0.9em;
-		font-size: 3.5em;
+		color: #FFF;
 	}
 	
 	#logo a
 	{
 		text-decoration: none;
+		text-transform: uppercase;
 		color: #FFF;
 	}
-	
-	#logo span
-	{
-		padding-right: 0.5em;
-		text-transform: uppercase;
-		font-size: 0.90em;
-		color: rgba(255,255,255,1);
-	}
-
-	#logo span a
-	{
-		color: rgba(255,255,255,0.8);
-	}
-	
-	
 
 /*********************************************************************************/
 /* Menu                                                                          */
@@ -361,42 +347,47 @@
 
 	#menu
 	{
+		position: absolute;
+		top: 2em;
+		right: 0;
 	}
 	
 	#menu ul
 	{
 		display: inline-block;
-		padding: 0em 2em;
-		background: #1ABC9C;
-		text-align: center;
 	}
 	
 	#menu li
 	{
-		display: inline-block;
+		display: block;
+		float: left;
+		text-align: center;
 	}
 	
 	#menu li a, #menu li span
 	{
-		display: inline-block;
-		padding: 1.3em 1.5em;
+		padding: 1em 1.5em;
+		letter-spacing: 1px;
 		text-decoration: none;
-		font-size: 0.90em;
-		font-weight: 600;
 		text-transform: uppercase;
-		outline: 0;
+		font-size: 0.8em;
 		color: #FFF;
 	}
 	
 	#menu li:hover a, #menu li.active a, #menu li.active span
 	{
+		color: #FFF;
 	}
 	
 	#menu .current_page_item a
 	{
+		background: #009E2D;
 		color: #FFF;
 	}
 	
+	#menu .icon
+	{
+	}
 
 /*********************************************************************************/
 /* Banner                                                                        */
@@ -404,84 +395,51 @@
 
 	#banner
 	{
-	}
-
-/*********************************************************************************/
-/* Wrapper                                                                       */
-/*********************************************************************************/
-
-
-	.wrapper
-	{
 		overflow: hidden;
-		padding: 0em 0em 5em 0em;
-		background: #FFF;
-	}
-
-	#wrapper1
-	{
-		background: #FFF;
-	}
-
-	#wrapper2
-	{
-		overflow: hidden;
-		background: #F3F3F3;
-		padding: 5em 0em;
+		padding: 7em 0em 5em 0em;
+		background: #202020;
+		background-size: cover;
 		text-align: center;
+		color: rgba(255,255,255,.8);
 	}
 
-	#wrapper3
+	#banner .title
 	{
-	}
-	
-	#wrapper4
-	{
+		margin-bottom: 1em;
+		text-transform: uppercase !important;
 	}
 
-/*********************************************************************************/
-/* Welcome                                                                       */
-/*********************************************************************************/
+	#banner .title h2
+	{
+		color: #FFF;
+	}
 
-	#welcome
+	#banner .title .byline
 	{
-		overflow: hidden;
-		width: 1000px;
-		padding: 8em 100px 0em 100px;
-		text-align: center;
-		color: rgba(0,0,0,0.6);
+		color: rgba(255,255,255,.6);
 	}
 	
-	#welcome .content
+	#banner .button
 	{
-		padding: 0em 8em;
-	}
-	
-	#welcome .title h2
-	{
-		color: rgba(0,0,0,0.8);
-	}
-	
-	#welcome a,
-	#welcome strong
-	{
-		color: rgba(0,0,0,0.8);
+		margin-top: 3em;
+		background: #009E2D !important;
 	}
 
 /*********************************************************************************/
 /* Page                                                                          */
 /*********************************************************************************/
 
-	#page-wrapper
-	{
-		overflow: hidden;
-		background: #F3F3F3;
-		padding: 3em 0em;
-		text-align: center;
-	}
-
 	#page
 	{
+		padding: 5em 0em;
+		text-align: center;
+	}
+	
+	#page .button
+	{
+		margin-top: 2em;
+		display: inline-block;
+		text-align: center;
 	}
 
 /*********************************************************************************/
@@ -490,10 +448,6 @@
 
 	#content
 	{
-		float: left;
-		width: 700px;
-		padding-right: 100px;
-		border-right: 1px solid rgba(0,0,0,.1);
 	}
 
 /*********************************************************************************/
@@ -502,8 +456,6 @@
 
 	#sidebar
 	{
-		float: right;
-		width: 350px;
 	}
 
 /*********************************************************************************/
@@ -512,13 +464,6 @@
 
 	#footer
 	{
-		text-align: center;
-	}
-
-	
-	#footer .title span
-	{
-		color: rgba(255,255,255,0.4);
 	}
 
 /*********************************************************************************/
@@ -530,14 +475,13 @@
 		overflow: hidden;
 		padding: 5em 0em;
 		border-top: 1px solid rgba(255,255,255,0.08);
-		text-align: center;
 	}
 	
 	#copyright p
 	{
-		letter-spacing: 1px;
-		font-size: 0.90em;
-		color: rgba(255,255,255,0.6);
+		text-align: center;
+		font-size: 1em;
+		color: rgba(255,255,255,0.5);
 	}
 	
 	#copyright a
@@ -547,207 +491,81 @@
 	}
 
 /*********************************************************************************/
-/* Newsletter                                                                    */
+/* Featured                                                                      */
 /*********************************************************************************/
 
-	#newsletter
+	#featured
 	{
 		overflow: hidden;
-		padding: 8em 0em;
-		background: #EDEDED;
+		padding: 5em 0em;
+		background: #009E2D;
+		color: rgba(255,255,255,.8);
 		text-align: center;
 	}
-	
-	#newsletter .title h2
-	{
-		color: rgba(0,0,0,0.8);
-	}
-	
-	#newsletter .content
-	{
-		width: 600px;
-		margin: 0px auto;
-	}
-	
-/*********************************************************************************/
-/* Portfolio                                                                     */
-/*********************************************************************************/
 
-	#portfolio
+	#featured a
 	{
+		color: rgba(255,255,255,1);
 	}
 	
-	#portfolio .box
+	#featured .button
 	{
-		text-align: center;
-		color: rgba(0,0,0,0.5);
-	}
-	
-	#portfolio h3
-	{
-		display: block;
-		padding-bottom: 1em;
+		background: #FFF;
+		margin-top: 3em;
 		font-size: 1em;
-		color: rgba(0,0,0,0.6);
+		color: #009E2D;
 	}
 
-	#portfolio .title
+	#featured .title
 	{
+	}
+
+	#featured .title h2
+	{
+		color: #FFF;
+	}
+
+	#featured .title .byline
+	{
+		color: rgba(255,255,255,.6);
+	}
+
+/*********************************************************************************/
+/* Featured                                                                      */
+/*********************************************************************************/
+
+.box
+{
+	padding: 3em 2em 2em 2em;
+	border: 1px solid rgba(0,0,0,0.1);
+	border-radius: 8px;
 		text-align: center;
-	}
+}
 
-	#portfolio .title h2
-	{
-		color: rgba(0,0,0,0.8);
-	}
 
-	.column1,
-	.column2,
-	.column3,
-	.column4
-	{
-		width: 282px;
-	}
-	
-	.column1,
-	.column2,
-	.column3
-	{
-		float: left;
-		margin-right: 24px;
-	}
-	
-	.column4
-	{
-		float: right;
-	}
-
-/*********************************************************************************/
-/* Three Columns                                                                 */
-/*********************************************************************************/
-
-	#three-column
+	#extra
 	{
 		overflow: hidden;
+		padding: 5em 0em;
+	}
+	
+	#extra .title
+	{
 		text-align: center;
 	}
 	
-	#three-column h2
+	#extra .button
 	{
-		margin: 1em 0em;
-		font-size: 1.5em;
-		font-weight: 700;
+		margin-top: 5em;
 	}
 	
-	#three-column .icon
+	#extra .fa
 	{
-		position: relative;
 		display: block;
-		margin: 0px auto 0.80em auto;
-		background: none;
-		line-height: 150px;
-		font-size: 4em;
-		width: 150px;
-		height: 150px;
-		border-radius: 100px;
-		border: 6px solid #67128F;
+		margin-bottom: 0.5em;
 		text-align: center;
-		color: #FFF;
-		
-	}
-		
-	#three-column #tbox1,
-	#three-column #tbox2,
-	#three-column #tbox3
-	{
-		float: left;
-		width: 320px;
-		padding: 80px 40px 80px 40px;
-	}
-	
-	#three-column .title
-	{
-		text-align: center;
-	}
-	
-	#three-column .title h2
-	{
-		font-size: 1.60em;
-	}
-	
-	#three-column .title .byline
-	{
-		padding-top: 0.50em;
-		font-size: 0.90em;
-		color: #858585;
+		font-size: 3em;
 	}
 
-	#three-column .arrow-down
-	{
-		border-top-color: #292929;
-	}
-	
-	
-	ul.tools
-	{
-		margin: 0;
-		padding: 0em 0em 0em 0em;
-		list-style: none;
-	}
-	
-	ul.tools li
-	{
-		display: inline-block;
-		padding: 0em .2em;
-		font-size: 4em;
-	}
-	
-	ul.tools li span
-	{
-		display: none;
-		margin: 0;
-		padding: 0;
-	}
-	
-	ul.tools li a
-	{
-		color: #FFF;
-	}
-	
-	ul.tools li a:before
-	{
-		display: inline-block;
-		background: #1ABC9C;
-		width: 120px;
-		height: 120px;
-		border-radius: 50%;
-		line-height: 120px;
-		text-align: center;
-		color: #FFFFFF;
-	}
 
-/*********************************************************************************/
-/*       box_srcollbar                                                           */
-/*********************************************************************************/
 
-.box_srcollbar {
-    overflow:auto;
-    width:292px;
-    height:212px;
-    padding:15px;
-    border:1px solid #C0C0C0;
-    background-color:#FFFFFF;
-    color:#000;
-    font-size:12px;
-}
-.box_title{
-    border:1px solid #C0C0C0;
-    padding:5px;
-    width:300px;
-    font-weight:bold;
-    font-size:14px;
-    background-color:#F3F3F3;
-    color:#C0C0C0;
-}
-	
-	
