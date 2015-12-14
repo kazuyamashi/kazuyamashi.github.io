@@ -186,7 +186,7 @@
 	{
 		display: inline-block;
 		padding: 0em 3em;
-		background: #009E2D;
+		background: #6495ed;
 		letter-spacing: 0.20em;
 		line-height: 4em;
 		text-decoration: none;
@@ -381,7 +381,8 @@
 	
 	#menu .current_page_item a
 	{
-		background: #009E2D;
+		/*background: #00 9E 2D;*/
+		background: #6495ed;
 		color: #FFF;
 	}
 	
@@ -422,7 +423,7 @@
 	#banner .button
 	{
 		margin-top: 3em;
-		background: #009E2D !important;
+		background: #6495ed !important;
 	}
 
 /*********************************************************************************/
@@ -498,7 +499,7 @@
 	{
 		overflow: hidden;
 		padding: 5em 0em;
-		background: #009E2D;
+		background: #6495ed;
 		color: rgba(255,255,255,.8);
 		text-align: center;
 	}
@@ -513,7 +514,7 @@
 		background: #FFF;
 		margin-top: 3em;
 		font-size: 1em;
-		color: #009E2D;
+		color: #6495ed;
 	}
 
 	#featured .title
@@ -569,3 +570,27 @@
 
 
 
+/*********************************************************************************/
+/*       box_srcollbar                                                           */
+/*********************************************************************************/
+
+.box_srcollbar {
+    overflow:auto;
+    width:964px;
+    height:70px;
+    padding:15px;
+    border:1px solid #C0C0C0;
+    background-color:#FFFFFF;
+    color:#000;
+    font-size:12px;
+}
+.box_title{
+    border:1px solid #C0C0C0;
+    padding:5px;
+    width:300px;
+    font-weight:bold;
+    font-size:14px;
+    background-color:#F3F3F3;
+    color:#C0C0C0;
+}
+	
