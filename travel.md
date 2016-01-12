@@ -1,8 +1,6 @@
 #いい感じ箱根
 
-<center>
 <img src="http://www.yusaka.jp/images/onsen/main_image.jpg"></img>
-</center>
 
 日程：2/7〜2/8
 
