@@ -1,4 +1,10 @@
-#はこねりょこう
+#いい感じ箱根
+
+<center>
+<img src="http://www.yusaka.jp/images/onsen/main_image.jpg"></img>
+</center>
+
+日程：2/7〜2/8
 
 ##いい感じな宿
 全部朝夕食付き、一人分の目安
@@ -33,4 +39,14 @@
 ##いい感じなタイムスケジュール
 考え中
 
+
+##いい感じなメモ
+
+当日は東京で合流？
+
+
+#####このWebページのURL
+
 https://kazuyamashi.github.io/travel.html
+
+Copyright ©Kazushi Yamashina
