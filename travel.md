@@ -1,10 +1,11 @@
-#いい感じ箱根
+#ぱない箱根
 
 <img src="http://livedoor.4.blogimg.jp/jin115/imgs/2/0/207606b4.jpg"></img>
 
 日程：2/7〜2/8
+このページはそのまま旅のしおりにするつもりです
 
-##いい感じな宿
+##ぱない宿
 全部朝夕食付き、一人分の目安
 
 - ~10,000
@@ -20,7 +21,7 @@
 		- http://rurubu.travel/A04/14/1406/140603/1438202/4306007/list.html?ref=regular
     - [青巒荘](http://rurubu.travel/A04/14/1406/140615/1438403/4326012/list.html?ref=regular)
 
-##いい感じな場所
+##ぱない場所
 
 - [箱根湯本温泉](http://www.hakoneyumoto.com/)
 - [箱根神社](http://hakonejinja.or.jp/)
@@ -29,16 +30,16 @@
 - [星の王子さまミュージアム](http://www.tbs.co.jp/l-prince/)
 - [箱根ロープウェイ](http://www.hakoneropeway.co.jp/)
 
-##いい感じなごはん
+##ぱないごはん
 
 - [食べなきゃ損！絶対に美味しい「箱根湯本」のオススメ＆王道グルメ３４選](http://find-travel.jp/article/661)
 - [箱根に行ったら立ち寄るべき！絶対におすすめの絶品グルメの店TOP7](https://retrip.jp/articles/4048/)
 
-##いい感じなタイムスケジュール
+##ぱないタイムスケジュール
 考え中
 
 
-##いい感じなメモ
+##ぱないメモ
 
 当日は東京で合流？
 
