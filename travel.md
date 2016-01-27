@@ -70,6 +70,8 @@
 - 当日は東京で合流→新宿から一緒にいくのがベストかも
 - 食べたいものはありますかね
 - ほかにも要望があれば調べるぜ
+- 東京駅マップ
+	- http://www.tokyoinfo.com/s/guide/map/download/map_1f.pdf
 
 ##お金
 
