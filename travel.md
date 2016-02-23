@@ -20,17 +20,20 @@
 - 設備
 	- シャワー トイレ 洋式トイレ 洗浄器付トイレ等 冷房（無料） 暖房（無料） 冷蔵庫 テレビ（無料） ポット
 
-##行く場所候補
+##行く場所！
 - [芦ノ湖](http://www.hakone-ashinoko.net/)
 - [えゔぁ屋](http://www.evastore2.jp/evaya/)
-- [箱根湯本温泉](http://www.hakoneyumoto.com/)
 - [箱根神社](http://hakonejinja.or.jp/)
-- [大涌谷](http://www.owakudani.com/)
 - [箱根園水族館](http://www.princehotels.co.jp/amuse/hakone-en/suizokukan/)
 - [星の王子さまミュージアム](http://www.tbs.co.jp/l-prince/)
-- [箱根ロープウェイ](http://www.hakoneropeway.co.jp/)
 
 ##ごはん
+- 山科が気になっている店
+	- [はつ花　本店](http://tabelog.com/kanagawa/A1410/A141001/14002450/)
+	- [福浦みなと食堂](http://tobimaruomaru.seesaa.net/article/370083514.html)
+	- [らぁ麺　飯田商店](http://tabelog.com/kanagawa/A1410/A141002/14038776/)
+
+**参考**
 
 - [食べなきゃ損！絶対に美味しい「箱根湯本」のオススメ＆王道グルメ３４選](http://find-travel.jp/article/661)
 - [箱根に行ったら立ち寄るべき！絶対におすすめの絶品グルメの店TOP7](https://retrip.jp/articles/4048/)
@@ -39,6 +42,7 @@
 **！真弥が新庄を始発列車で出発してくれるとしたら！**  
 **！時間はゆったり目でスケジュールを組みました！**  
 **！当日時間短縮できたら箱で到着時間が早まります！**  
+
 #####真弥
 
 |  Time  |   Action   |                                                  Tips                                                  |
@@ -53,6 +57,9 @@
 | 10：10 | 新宿発     |                                                                                                        |
 | ｜     |            | 1時間23分くらい                                                                                        |
 | 11：30 | 箱根湯元着 |                                                                                                        |
+| 12：00 |  昼食     |                                                                                                        |
+| 14：30 | 箱根湯本駅発 |                                                                                                        |
+
 
 #####山科
 |  Time |   Action   |                Tips                |
@@ -67,15 +74,14 @@
 
 - [箱根フリーパス](http://www.hakonenavi.jp/ticket/before/hakonefree01/ab_hakonefree01/)なるものがあるらしい。
 	- 新宿から2日間乗り放題の切符
-- 当日は東京で合流→新宿から一緒にいくのがベストかも
-- 食べたいものはありますかね
-- ほかにも要望があれば調べるぜ
 - 東京駅マップ
 	- http://www.tokyoinfo.com/s/guide/map/download/map_1f.pdf
+	- 待ち合わせは新幹線中央のりかえ口
 
 ##お金
 
-宇都宮-東京  
-3,110  
-箱根フリーパス（新宿）小田急線で購入  
-5,140  
+|      elem      |  cost  |    tips    |
+|----------------|--------|------------|
+| 宿泊費         | 15,900 | 全て１人分 |
+| 箱根フリーパス | 5,140  |            |
+
