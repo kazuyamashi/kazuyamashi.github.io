@@ -11,8 +11,8 @@ GazeboシミュレータはROSによって動作するロボットのための3D
 以下のコマンドでシミュレーション環境を導入します。
 
 ```
-sudo apt-get install ros-indigo-gazebo-tutlebot
-sudo apt-get install ros-indigo-tutlebot-teleop
+sudo apt-get install ros-indigo-turtlebot-gazebo
+sudo apt-get install ros-indigo-turtlebot-teleop
 sudo apt-get install ros-indigo-turtlebot-rviz-launchers
 ```
 

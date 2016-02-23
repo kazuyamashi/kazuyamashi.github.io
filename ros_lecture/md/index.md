@@ -16,7 +16,7 @@
 	- ROSのノード構成の確認の仕方、メッセージの確認などの分析方法
 - **[ROS launch ファイルの使い方](ros_launch.html)**
 	- ROSにおけるlaunchファイルを用いたパッケージの一斉起動の仕方、記 述方法
-- **[ROSパッケージの紹介](ros_gazebo.html)**
+- **[Gazeboシミュレータの紹介](ros_gazebo.html)**
 	- ROSの開発において一般的に使用されるGazeboシミュレータの紹介
 - **[ROSパッケージリリースの仕方](ros_packrelease.html)**
 	- 独自のROSパッケージを公式wikiへの公開方法
