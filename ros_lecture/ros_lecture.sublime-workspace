@@ -4,16 +4,20 @@
 		"selected_items":
 		[
 			[
+				"ros",
+				"roslaunch"
+			],
+			[
+				"la",
+				"launch"
+			],
+			[
 				"image",
 				"image_tutorial"
 			],
 			[
 				"ima",
 				"image_tutorial"
-			],
-			[
-				"ros",
-				"rosdistro"
 			],
 			[
 				"catk",
@@ -579,6 +583,16 @@
 	],
 	"file_history":
 	[
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/ros_lecture/ros_study.html",
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/ros_lecture/ros_packrelease.html",
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/ros_lecture/ros_overview.html",
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/ros_lecture/ros_measure.html",
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/ros_lecture/index.html",
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/ros_lecture/ros_launch.html",
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/ros_lecture/ros_gazebo.html",
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/ros_lecture/md/ros_launch.md",
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/ros_lecture/md/ros_study.md",
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/ros_lecture/md/ros_gazebo.md",
 		"/D/cygwin/home/kazushi/kazuyamashi.github.io/travel.md",
 		"/D/cygwin/home/kazushi/ros_lecture/ros_measure.md",
 		"/D/cygwin/home/kazushi/ros_lecture/ros_study.md",
@@ -696,17 +710,7 @@
 		"/D/cygwin/home/kazushi/cReComp/lib/sw_gen.py",
 		"/D/cygwin/home/kazushi/cReComp/lib/lib_cpp.h",
 		"/D/cygwin/home/kazushi/cReComp/lib/sub_module.py",
-		"/D/cygwin/home/kazushi/cReComp/lib/sw_gen_cpp.py",
-		"/D/cygwin/home/kazushi/cReComp/lib/check_option.py",
-		"/D/cygwin/home/kazushi/cReComp/lib/common.py",
-		"/D/cygwin/home/kazushi/cReComp/lib/scrp_conf.py",
-		"/D/cygwin/home/kazushi/cReComp/lib/fifo_32.py",
-		"/D/cygwin/home/kazushi/cReComp/lib/lib_alw8",
-		"/D/cygwin/home/kazushi/cReComp/lib/fifo_8.py",
-		"/D/cygwin/home/kazushi/cReComp/lib/lib_alw32",
-		"/D/cygwin/home/kazushi/cReComp/devel/sonic_sensor.v",
-		"/D/cygwin/home/kazushi/cReComp/scrp/test3.scrp",
-		"/D/cygwin/home/kazushi/cReComp/README.md"
+		"/D/cygwin/home/kazushi/cReComp/lib/sw_gen_cpp.py"
 	],
 	"find":
 	{
@@ -724,6 +728,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"name_space",
+			"image_tutorial_node",
+			"turtlesim",
+			"ToName",
+			"FromName",
 			"実際の使い方例",
 			"実際の使い方",
 			"オプション一覧",
@@ -846,12 +855,7 @@
 			"1",
 			"self",
 			"false",
-			"@",
-			"condition",
-			"cur.gx != gyro_x ",
-			"gx",
-			"msg",
-			"m"
+			"@"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1008,7 +1012,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 229.0,
+	"side_bar_width": 214.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
