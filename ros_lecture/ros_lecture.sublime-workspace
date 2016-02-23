@@ -1,0 +1,1016 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"image",
+				"image_tutorial"
+			],
+			[
+				"ima",
+				"image_tutorial"
+			],
+			[
+				"ros",
+				"rosdistro"
+			],
+			[
+				"catk",
+				"catkin_create_pkg"
+			],
+			[
+				"publish",
+				"publisher"
+			],
+			[
+				"pub",
+				"publisher"
+			],
+			[
+				"sub",
+				"subscriber"
+			],
+			[
+				"sb",
+				"subscriber"
+			],
+			[
+				"pu",
+				"publisher"
+			],
+			[
+				"ti",
+				"title	Tag"
+			],
+			[
+				"wire",
+				"wire_in"
+			],
+			[
+				"se",
+				"sensor_ctl_dout_32"
+			],
+			[
+				"senso",
+				"sensor_data"
+			],
+			[
+				"Zedboard",
+				"Zedboard：Teratermでの作業"
+			],
+			[
+				"e",
+				"endl"
+			],
+			[
+				"t",
+				"td	Tag"
+			],
+			[
+				"exo",
+				"exp_workdir"
+			],
+			[
+				"ex",
+				"exp_workdir"
+			],
+			[
+				"sensor",
+				"sensor_ctl"
+			],
+			[
+				"st",
+				"str_"
+			],
+			[
+				"de",
+				"devfile_close"
+			],
+			[
+				"ma",
+				"main	main()"
+			],
+			[
+				"rw",
+				"rw_cond_32"
+			],
+			[
+				"in",
+				"int"
+			],
+			[
+				"gen_",
+				"gen_para"
+			],
+			[
+				"make",
+				"make_reglist"
+			],
+			[
+				"reg",
+				"reg_stack"
+			],
+			[
+				"re",
+				"reg"
+			],
+			[
+				"modu",
+				"module_type"
+			],
+			[
+				"r",
+				"r_cycle_32"
+			],
+			[
+				"fif",
+				"fifo_32"
+			],
+			[
+				"w",
+				"w_cycle_32"
+			],
+			[
+				"re2",
+				"reg2fifo"
+			],
+			[
+				"arg",
+				"argvs"
+			],
+			[
+				"a",
+				"argc"
+			],
+			[
+				"ass",
+				"assign"
+			],
+			[
+				"us",
+				"use_fifo_32"
+			],
+			[
+				"as",
+				"assign_port"
+			],
+			[
+				"su",
+				"sub_port"
+			],
+			[
+				"ans",
+				"ans_sub"
+			],
+			[
+				"bit",
+				"bitmax"
+			],
+			[
+				"ans_32",
+				"ans_32_alw"
+			],
+			[
+				"bi",
+				"bitmin"
+			],
+			[
+				"el",
+				"elif"
+			],
+			[
+				"cu",
+				"cur_r"
+			],
+			[
+				"fifo",
+				"fifo32"
+			],
+			[
+				"mou",
+				"module_name"
+			],
+			[
+				"port",
+				"port_stack"
+			],
+			[
+				"po",
+				"port_stack"
+			],
+			[
+				"por",
+				"port"
+			],
+			[
+				"an",
+				"ans_o"
+			],
+			[
+				"mo",
+				"module_name"
+			],
+			[
+				"module",
+				"module_name"
+			],
+			[
+				"m",
+				"module_name"
+			],
+			[
+				"is",
+				"i_sub"
+			],
+			[
+				"str",
+				"string"
+			],
+			[
+				"al",
+				"alw8_stack"
+			],
+			[
+				"make_",
+				"make_32_alw"
+			],
+			[
+				"op",
+				"option_port"
+			],
+			[
+				"s",
+				"str_"
+			],
+			[
+				"if",
+				"if	If Condition"
+			],
+			[
+				"hy",
+				"hydro-devel"
+			],
+			[
+				"di",
+				"dir_right"
+			],
+			[
+				"h",
+				"h2	Tag"
+			],
+			[
+				"l",
+				"li	Tag"
+			],
+			[
+				"i",
+				"id	Attr"
+			],
+			[
+				"es",
+				"elsif	elsif ..."
+			],
+			[
+				"fifo_",
+				"fifo_32"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"d",
+				"dout_32"
+			],
+			[
+				"f",
+				"fifo_ctl"
+			],
+			[
+				"in_",
+				"in_1"
+			],
+			[
+				"stat",
+				"state_32"
+			],
+			[
+				"ge",
+				"get_module_name"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"to",
+				"to_s"
+			],
+			[
+				"get",
+				"get_make_32_alw"
+			],
+			[
+				"ans_",
+				"ans_32"
+			],
+			[
+				"get_",
+				"get_sub_module"
+			],
+			[
+				"get_use_fifo_",
+				"get_use_fifo_32"
+			],
+			[
+				"fl",
+				"flag"
+			],
+			[
+				"int",
+				"integer_string"
+			],
+			[
+				"I",
+				"Integer"
+			],
+			[
+				"fla",
+				"flag_ok"
+			],
+			[
+				"fo",
+				"fo_s"
+			],
+			[
+				"data",
+				"data_ready"
+			],
+			[
+				"we",
+				"we_32"
+			],
+			[
+				"sl",
+				"split"
+			],
+			[
+				"A",
+				"Array	Array.new(10) { |i| .. }"
+			],
+			[
+				"mod",
+				"mod	module .. module_function .. end"
+			],
+			[
+				"mode",
+				"module_name"
+			],
+			[
+				"p",
+				"publisher_array"
+			],
+			[
+				"fil",
+				"file"
+			],
+			[
+				"fra",
+				"frameID"
+			],
+			[
+				"for",
+				"for	For Loop"
+			],
+			[
+				"ELEM",
+				"ELEM_MASK"
+			],
+			[
+				"c",
+				"cout"
+			],
+			[
+				"cha",
+				"char"
+			],
+			[
+				"speed",
+				"speed"
+			],
+			[
+				"fd",
+				"fd_32"
+			],
+			[
+				"bo",
+				"board"
+			],
+			[
+				"li",
+				"line_info"
+			],
+			[
+				"try",
+				"try_scan"
+			],
+			[
+				"x",
+				"x"
+			],
+			[
+				"co",
+				"color_lib"
+			],
+			[
+				"pixel",
+				"Pixel"
+			],
+			[
+				"pi",
+				"pic"
+			],
+			[
+				"z",
+				"z"
+			],
+			[
+				"gete",
+				"get_dtime"
+			],
+			[
+				"gettime",
+				"get_dtime"
+			],
+			[
+				"Image",
+				"ImageData"
+			],
+			[
+				"print",
+				"printf	printf …"
+			],
+			[
+				"he",
+				"height"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 342.0,
+		"last_filter": "tabl e",
+		"selected_items":
+		[
+			[
+				"tabl e",
+				"Table Editor: Enable for current view"
+			],
+			[
+				"export ",
+				"OmniMarkupPreviewer: Export Current Markup as HTML"
+			],
+			[
+				"ma",
+				"MarkdownTOC:Insert TOC"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"table",
+				"Table Editor: Enable for current syntax"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"om",
+				"OmniMarkupPreviewer: Preview Current Markup in Browser"
+			],
+			[
+				"tabe",
+				"Table Editor: Enable for current view"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax ma",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"omni b",
+				"OmniMarkupPreviewer: Preview Current Markup in Browser"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: I",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: IN",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: In",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 518.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"asad",
+			"-help",
+			"cd",
+			"ls",
+			"ｌｓ",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/ros_lecture",
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/ros_lecture/md"
+	],
+	"file_history":
+	[
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/travel.md",
+		"/D/cygwin/home/kazushi/ros_lecture/ros_measure.md",
+		"/D/cygwin/home/kazushi/ros_lecture/ros_study.md",
+		"/D/cygwin/home/kazushi/ros_lecture/ros_overview.md",
+		"/D/cygwin/home/kazushi/ros_lecture/index.md",
+		"/D/cygwin/home/kazushi/ros_lecture/ros_packrelease.md",
+		"/C/Users/kazushi/AppData/Local/Temp/scp42571/home/kazushi/rospack_releasews/rosdistro/indigo/distribution.yaml",
+		"/C/Users/kazushi/AppData/Local/Temp/scp04037/home/kazushi/ros_ws/src/image_tutorial/src/publisher.cpp",
+		"/C/Users/kazushi/AppData/Local/Temp/scp07349/home/kazushi/ros_ws/src/image_tutorial/src/subscriber.cpp",
+		"/C/Users/kazushi/AppData/Local/Temp/scp12997/home/kazushi/ros_ws/src/image_tutorial/CMakeLists.txt",
+		"/C/Users/kazushi/AppData/Local/Temp/scp48405/home/kazushi/catkin_ws/src/ros_time_measure/src/publisher_img.cpp",
+		"/C/Users/kazushi/AppData/Local/Temp/scp49925/home/kazushi/catkin_ws/src/ros_time_measure/msg/measure_img.msg",
+		"/C/Users/kazushi/AppData/Local/Temp/scp07668/home/kazushi/catkin_ws/src/ros_time_measure/src/subscriber_img.cpp",
+		"/C/Users/kazushi/AppData/Local/Temp/scp12332/home/kazushi/ros_ws/src/CMakeLists.txt",
+		"/D/cygwin/home/kazushi/ros_lecture/memo.txt",
+		"/C/Users/kazushi/AppData/Local/Temp/scp49782/home/kazushi/catkin_ws/src/ros_time_measure/src/measure_img.h",
+		"/C/Users/kazushi/AppData/Local/Temp/scp49622/home/kazushi/catkin_ws/src/ros_time_measure/src/config.cpp",
+		"/C/Users/kazushi/AppData/Local/Temp/scp49405/home/kazushi/catkin_ws/src/ros_time_measure/src/config.h",
+		"/D/cygwin/home/kazushi/fpga_comp_experiment/experiment/step3.md",
+		"/D/cygwin/home/kazushi/fpga_comp_experiment/experiment/step1.html",
+		"/D/cygwin/home/kazushi/fpga_comp_experiment/experiment/step1_160215193041.html",
+		"/D/cygwin/home/kazushi/fpga_comp_experiment/experiment/step1.md",
+		"/D/cygwin/home/kazushi/fpga_comp_experiment/experiment/support_doc.md",
+		"/D/cygwin/home/kazushi/fpga_comp_experiment/support_doc.md",
+		"/D/cygwin/home/kazushi/fpga_comp_experiment/experiment/step1_160215143835.html",
+		"/C/Users/kazushi/Downloads/bitmap.c",
+		"/C/Users/kazushi/AppData/Local/Temp/scp00537/root/exp_workdir/ros_ws/src/openreroc_motionsensor/src/sample_output.cpp",
+		"/C/Users/kazushi/AppData/Local/Temp/scp48648/root/exp_workdir/test/sensor_ctl.cpp",
+		"/D/cygwin/home/kazushi/fpga_comp_experiment/experiment/index.md",
+		"/D/cygwin/home/kazushi/fpga_comp_experiment/experiment/step0.md",
+		"/D/cygwin/home/kazushi/fpga_comp_experiment/memo.txt",
+		"/D/cygwin/home/kazushi/fpga_comp_experiment/experiment/step2.md",
+		"/D/cygwin/home/kazushi/fpga_comp_experiment/experiment/step0.html",
+		"/C/Users/kazushi/Dropbox/experiment.txt",
+		"/C/Users/kazushi/AppData/Local/Temp/scp46905/root/exp_workdir/ros_ws/src/openreroc_motionsensor/src/openreroc_motionsensor.cpp",
+		"/C/Users/kazushi/AppData/Local/Temp/scp32362/root/exp_workdir/ros_ws/src/openreroc_motionsensor/CMakeLists.txt",
+		"/C/Users/kazushi/AppData/Local/Temp/scp32969/root/exp_workdir/ros_ws/src/CMakeLists.txt",
+		"/C/Users/kazushi/AppData/Local/Temp/scp15689/root/exp_workdir/ros_ws/src/sample/CMakeLists.txt",
+		"/C/Users/kazushi/Desktop/est_filter.cpp",
+		"/C/Users/kazushi/Desktop/sensor_ctl_.scrp",
+		"/C/Users/kazushi/AppData/Local/Temp/scp57980/home/fss5/kazushi/public_html/xillinux-eval-zedboard-1.3c_forexp.zip",
+		"/C/Users/kazushi/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/cygwin/home/kazushi/fpga_comp_experiment/experiment_flow.md",
+		"/C/Users/kazushi/Dropbox/研究室関係/ドキュメント/ros_tutorial.md",
+		"/C/Users/kazushi/AppData/Local/Temp/scp17745/root/exp_workdir/cReComp/scrp/sensor_ctl.scrp",
+		"/C/Users/kazushi/AppData/Local/Temp/scp35609/root/exp_workdir/test/sensor_ctl.cpp",
+		"/C/Users/kazushi/AppData/Local/Temp/scp29281/root/exp_workdir/cReComp/devel/sensor_ctl/sonic_sensor.v",
+		"/C/Users/kazushi/AppData/Local/Temp/scp32273/root/exp_workdir/cReComp/devel/sensor_ctl/sensor_ctl.v",
+		"/C/Users/kazushi/AppData/Local/Temp/scp29137/root/exp_workdir/sonic_sensor.v",
+		"/C/exp_work_verilog/xillinux-eval-zedboard-1.3c_forexp/xillinux-eval-zedboard-1.3c_forexp/verilog/src/sonic_sensor.v",
+		"/C/exp_work_verilog/xillinux-eval-zedboard-1.3c_forexp/xillinux-eval-zedboard-1.3c_forexp/verilog/src/sensor_ctl.v",
+		"/C/Users/kazushi/AppData/Local/Temp/scp04196/etc/network/interfaces",
+		"/D/cygwin/home/kazushi/fpga_comp_experiment/sensor_ctl.cpp",
+		"/C/Users/kazushi/AppData/Local/Temp/scp53764/root/exp_workdir/test/sensor_ctl.cpp",
+		"/C/Users/kazushi/AppData/Local/Temp/scp01995/root/exp_workdir/cReComp/devel/sensor_ctl/sensor_ctl.cpp",
+		"/C/Users/kazushi/AppData/Local/Temp/scp57964/root/exp_workdir/cReComp/devel/sensor_ctl/sensor_ctl.cpp",
+		"/C/Users/kazushi/AppData/Local/Temp/scp50411/root/exp_workdir/test/sensor_ctl.cpp",
+		"/C/Users/kazushi/AppData/Local/Temp/scp37324/root/exp_workdir/test/sensor_ctl.cpp",
+		"/C/Users/kazushi/AppData/Local/Temp/scp27132/root/exp_workdir/cReComp/devel/sensor_ctl/sensor_ctl.v",
+		"/D/work_space/exp_test_2/verilog/src/sensor_ctl.v",
+		"/C/Users/kazushi/AppData/Local/Temp/scp29461/root/exp_workdir/cReComp/devel/sensor_ctl/sensor_ctl.cpp",
+		"/D/cygwin/home/kazushi/fpga_comp_experiment/sensor_ctl.scrp",
+		"/C/Users/kazushi/AppData/Local/Temp/scp24661/root/exp_workdir/cReComp/scrp/sensor_ctl.scrp",
+		"/C/Users/kazushi/AppData/Local/Temp/scp56301/root/exp_workdir/test/sensor_ctl.cpp",
+		"/C/Users/kazushi/AppData/Local/Temp/scp48292/root/exp_workdir/test/lib_cpp.h",
+		"/C/Users/kazushi/AppData/Local/Temp/scp47869/root/exp_workdir/test/sensor_ctl.cpp",
+		"/D/cygwin/home/kazushi/fpga_comp_experiment/sonic_sensor.v",
+		"/C/Users/kazushi/AppData/Local/Temp/scp45541/root/exp_workdir/cReComp/scrp/sensor_ctl.scrp",
+		"/C/Users/kazushi/AppData/Local/Temp/scp46765/root/exp_workdir/cReComp/devel/sensor_ctl/sensor_ctl.v",
+		"/C/Users/kazushi/AppData/Local/Temp/scp30846/root/exp_workdir/cReComp/scrp/sensor_ctl.scrp",
+		"/C/Users/kazushi/AppData/Local/Temp/scp45957/root/exp_workdir/cReComp/sub_module/sonic_sensor.v",
+		"/C/Users/kazushi/AppData/Local/Temp/scp44485/root/exp_workdir/sonic_sensor.v",
+		"/C/Users/kazushi/AppData/Local/Temp/scp43141/root/exp_workdir/sonic_sensor.v",
+		"/C/Users/kazushi/AppData/Local/Temp/scp47119/root/exp_workdir/cReComp/devel/sensor_ctl/sensor_ctl.v",
+		"/C/Users/kazushi/AppData/Local/Temp/scp47247/root/exp_workdir/cReComp/devel/sensor_ctl/sensor_ctl.cpp",
+		"/C/Users/kazushi/AppData/Local/Temp/scp31030/root/exp_workdir/cReComp/scrp/sensor_ctl.scrp",
+		"/C/Users/kazushi/AppData/Local/Temp/scp00398/root/exp_workdir/sonic_sensor.v",
+		"/C/Users/kazushi/AppData/Local/Temp/scp01590/root/exp_workdir/cReComp/scrp/sensor_ctl.scrp",
+		"/C/Users/kazushi/AppData/Local/Temp/scp34018/root/common_space/test3/lib_cpp.h",
+		"/C/Users/kazushi/AppData/Local/Temp/scp17785/root/common_space/test3/sensor_ctl.cpp",
+		"/C/Users/kazushi/AppData/Local/Temp/scp16057/root/common_space/test3/lib_cpp.h",
+		"/C/Users/kazushi/AppData/Local/Temp/scp06320/root/common_space/test3/sensor_ctl.cpp",
+		"/C/Users/kazushi/AppData/Local/Temp/scp10160/root/common_space/est/estimate.cpp",
+		"/D/work_space/u-ta/u-ta_sonic/da_snake_control.ucf",
+		"/C/Users/kazushi/AppData/Local/Temp/scp01690/root/common_space/test3/sensor_ctl.cpp",
+		"/D/work_space/exp_test/runonce/fifo_32x512.v",
+		"/C/Users/kazushi/AppData/Local/Temp/scp38675/root/common_space/test3/sensor_ctl.cpp",
+		"/D/work_space/u-ta/u-ta_sonic/UCF.ucf",
+		"/D/work_space/sonic_sensor_test/sonic_sensor.ucf",
+		"/C/Users/kazushi/AppData/Local/Temp/scp01876/root/common_space/test3/sensor_ctl.cpp",
+		"/D/work_space/openreroc_ultrasonic/verilog/src/sensor_ctl.v",
+		"/D/work_space/exp_test/verilog/src/sensor_ctl.v",
+		"/D/work_space/exp_test/verilog/src/sonic_sensor.v",
+		"/D/work_space/openreroc_ultrasonic/verilog/src/sonic_sensor.v",
+		"/C/Users/kazushi/AppData/Local/Temp/scp05663/root/common_space/test3/sensor_ctl.cpp",
+		"/D/cygwin/home/kazushi/cReComp/devel/sensor_ctl/sonic_sensor.v",
+		"/C/Users/kazushi/AppData/Roaming/Sublime Text 3/Packages/User/MarkdownTOC.sublime-settings",
+		"/C/Users/kazushi/AppData/Roaming/Sublime Text 3/Packages/MarkdownTOC/MarkdownTOC.sublime-settings",
+		"/D/cygwin/home/kazushi/cReComp/lib/template.scrp",
+		"/D/cygwin/home/kazushi/cReComp/result.txt",
+		"/D/cygwin/home/kazushi/cReComp/scrp/sensor_ctl.scrp",
+		"/C/Users/kazushi/AppData/Roaming/Sublime Text 3/Packages/User/Terminal.sublime-settings",
+		"/C/Users/kazushi/AppData/Roaming/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/C/Users/kazushi/AppData/Local/Temp/scp38899/root/common_space/test/main.cpp",
+		"/C/Users/kazushi/AppData/Local/Temp/scp38235/root/common_space/test/lib_cpp.h",
+		"/D/cygwin/home/kazushi/cReComp/test/lib_cpp.h",
+		"/D/cygwin/home/kazushi/cReComp/test/main.cpp",
+		"/C/Users/kazushi/AppData/Local/Temp/scp35554/home/kazushi/work_space/test/lib_cpp.h",
+		"/C/Users/kazushi/AppData/Local/Temp/scp37290/home/kazushi/work_space/test/main.cpp",
+		"/C/Users/kazushi/AppData/Local/Temp/scp26170/home/kazushi/work_space/test/dummy_read.txt",
+		"/C/Users/kazushi/AppData/Local/Temp/scp24803/home/kazushi/work_space/test/dummy_write.txt",
+		"/C/Users/kazushi/AppData/Local/Temp/scp47387/home/kazushi/work_space/test/sample.txt",
+		"/C/Users/kazushi/Desktop/fsp_mail.md",
+		"/D/cygwin/home/kazushi/cReComp/cReComp.py",
+		"/D/cygwin/home/kazushi/cReComp/lib/sw_gen.py",
+		"/D/cygwin/home/kazushi/cReComp/lib/lib_cpp.h",
+		"/D/cygwin/home/kazushi/cReComp/lib/sub_module.py",
+		"/D/cygwin/home/kazushi/cReComp/lib/sw_gen_cpp.py",
+		"/D/cygwin/home/kazushi/cReComp/lib/check_option.py",
+		"/D/cygwin/home/kazushi/cReComp/lib/common.py",
+		"/D/cygwin/home/kazushi/cReComp/lib/scrp_conf.py",
+		"/D/cygwin/home/kazushi/cReComp/lib/fifo_32.py",
+		"/D/cygwin/home/kazushi/cReComp/lib/lib_alw8",
+		"/D/cygwin/home/kazushi/cReComp/lib/fifo_8.py",
+		"/D/cygwin/home/kazushi/cReComp/lib/lib_alw32",
+		"/D/cygwin/home/kazushi/cReComp/devel/sonic_sensor.v",
+		"/D/cygwin/home/kazushi/cReComp/scrp/test3.scrp",
+		"/D/cygwin/home/kazushi/cReComp/README.md"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"実際の使い方例",
+			"実際の使い方",
+			"オプション一覧",
+			"コマンド書式",
+			"released",
+			"には開発したパッケージ名を入れます。",
+			"height",
+			"para_in",
+			"adder",
+			"measure_img",
+			"ros_time_measure",
+			"measure_img",
+			"ima",
+			"measure_img",
+			"ros_time_measure",
+			"adder",
+			"calculate",
+			"comp_tutorial",
+			"ros_ws",
+			"。",
+			"Subscriberがtopicを介してMessageをやり取りすることでデータ通信をします。",
+			"：",
+			"**",
+			"：",
+			"　",
+			"・",
+			"ros_ws",
+			"step0",
+			"val",
+			"16",
+			"、",
+			"adder",
+			"￥",
+			"\\",
+			"zedboard",
+			"sonic_sensor",
+			"\n```",
+			"-",
+			"、",
+			"32",
+			"close_devfile_read_32",
+			"32",
+			"devfile_open_read_32",
+			"opendevfile_read",
+			"sub_module",
+			"sub_module_name",
+			"sub_module",
+			"module_name",
+			"dsl_file",
+			"32",
+			" )",
+			"rw_cond_8",
+			"readline",
+			"rw_cond_32",
+			"32",
+			"print",
+			"elem_ins_one",
+			"make_reglist",
+			"connect",
+			"assign_port_stack",
+			"assign_target_module",
+			"w_cycle_32",
+			"flag",
+			"2",
+			"32",
+			"scrp",
+			"ans_sub",
+			"ans_8_alw",
+			"ans_o",
+			"ans_32_alw",
+			"ans_8",
+			"ans_32",
+			"reg",
+			"sig_inout",
+			"reg",
+			"f",
+			"module_type",
+			"\n		",
+			"))\n",
+			"j",
+			"ans_hs_s",
+			"if ans_hs_s:\n		common.read_lib(fo,\"lib/hs_slv_alw\")",
+			"ans_hs_s",
+			"ans_hs_m",
+			"fi",
+			"module_type",
+			"ans_hs_m",
+			"ans_hs_s",
+			"ans_hs_m",
+			"reg2fifo",
+			"32",
+			"module_name",
+			"3",
+			"sub_module_name",
+			"argv",
+			"fi",
+			"1",
+			"fo_s",
+			" \")",
+			"puts",
+			"32",
+			"0r",
+			"\")",
+			"reg2info",
+			"reg2fifo_stack_32_r",
+			"reg2info_stack_32_r",
+			"reg2fifo",
+			"]",
+			"x",
+			"r",
+			"puts",
+			"port_stack",
+			"x",
+			"bitwidth",
+			"3",
+			"and",
+			"puts",
+			"sub_module",
+			"ans_32_alw",
+			"1",
+			"self",
+			"false",
+			"@",
+			"condition",
+			"cur.gx != gyro_x ",
+			"gx",
+			"msg",
+			"m"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"image_tutorial",
+			"calculate",
+			"image_tutorial",
+			"．",
+			"，",
+			"\\",
+			"，",
+			"8",
+			"False",
+			"",
+			"SND_DATA_32_z",
+			"SND_DATA_32_y",
+			"SND_DATA_32_x",
+			"None",
+			"openreroc_motion_sensor",
+			"openreroc_pwm",
+			"6495ed",
+			"87ceeb",
+			"4169e1",
+			"2e8b57",
+			"8",
+			"state_32",
+			"8",
+			"@bit_witdh_32_s",
+			"@reg2fifo_stack_32_s",
+			"@bit_witdh_32_r",
+			"@reg2fifo_stack_32_r",
+			"fifo_ctl_8",
+			"8",
+			"#{bit}",
+			"i",
+			"",
+			"@array",
+			"",
+			"@@line",
+			"\"",
+			" '",
+			" ",
+			",",
+			"32",
+			"8",
+			"",
+			"8",
+			"IMAGE_WIDTH",
+			"IMAGE_HEIGHT",
+			"IMAGE_WIDTH",
+			"IMAGE_HEIGHT",
+			"h",
+			"w"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 305.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/C++/C++ Single File.sublime-build",
+	"project": "ros_lecture.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\cygwin\\home\\kazushi\\sublime_project\\cReComp.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 229.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
