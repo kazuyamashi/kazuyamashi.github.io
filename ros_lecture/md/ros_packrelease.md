@@ -60,7 +60,7 @@ git push
 
 <img src="pic/rosdistro_user.png" height=500>
 
-pull requestを行うと数時間もあればマージされます。  
+pull requestを行うとしばらくしてから，ROSのメンテナによってマージされます。  
 また1日ほどでROSの公式Wikiにも掲載されます。  
 
 <img src="pic/released.png" width=700>
