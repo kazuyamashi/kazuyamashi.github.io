@@ -1,12 +1,9 @@
-#### Step1: cReCompを用いてVerilog HDLで記述されたハードウェア回路をコンポーネント化<br>(Zedboard：Teratermでの作業)
+#### Step1: cReCompを用いてVerilog HDLで記述されたハードウェア回路をコンポーネント化<br>
 
 #####　cReCompのイントール
 下記のコマンドでcReCompをワークスペース内にインストールします。
 ```
-cd ~/exp_workdir
-export GIT_SSL_NO_VERIFY=1
-git config --global http.proxy http://proxya.cc.utsunomiya-u.ac.jp:8080
-git config --global https.proxy https://proxya.cc.utsunomiya-u.ac.jp:8080
+cd ~/workshop_crecomp
 git clone https://github.com/kazuyamashi/cReComp.git
 cd cReComp
 ```
@@ -51,10 +48,10 @@ FIFOバッファを介してデータ通信が可能です。
 ./cReComp.py -s [scrpの名前] [コンポーネント化対象のモジュール名]
 ```  
 
-本実験では以下のように入力してください。
+今回は以下のように入力してください。
 
 ```
-cd ~/exp_workdir
+cd ~/workshop_crecomp
 cp sonic_sensor.v cReComp/sub_module/;cd cReComp
 ./cReComp.py -s sensor_ctl sonic_sensor
 ```
@@ -106,9 +103,9 @@ end
 
 Scrpファイルでは設定する項目はフラグとそれに属する要素で処理します。設定したい項目のフラグのコメントアウトを  
 解除し，編集することをここでは**設定**と称します。それぞれのフラグを説明します。
-
-<img src="pic/scrp_model.png" height=500>
-
+<center>
+	<img src="pic/scrp_model.png" width=900>
+</center>
 
 |              フラグ               |                                       設定できる項目                                        |                 書式                 |
 |-----------------------------------|---------------------------------------------------------------------------------------------|--------------------------------------|
@@ -223,6 +220,8 @@ assign_port sonic_sensor normal{
 + 	sig=sig_out
 + 	finish=finish_sensor
 + 	out_data=sensor_data
+}
+end
 ```
 
 <!-- 以下の表にしたがって記述してください。なお，今回の実験では8bitのFIFOは使用しません。 -->
@@ -278,7 +277,7 @@ end
 Scrpファイルの記述が終了したら以下のコマンドでコンポーネントの自動生成を行いましょう。
 
 ```
-cd ~/exp_workdir/cReComp
+cd ~/workshop_crecomp/cReComp
 ./cReComp.py scrp/sensor_ctl.scrp
 ```
 

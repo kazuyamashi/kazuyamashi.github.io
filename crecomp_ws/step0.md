@@ -18,7 +18,7 @@ https://github.com/kazuyamashi/workshop_crecomp.git
 ```
 cd ~/workshop_crecomp; ls
 ```
-**5：**　ファイル転送ソフトなどによってZedboard内の`workshop_crecomp`へログインする場合のパスワードは`root`
+**5：**　ファイル転送ソフトなどによってZedboard内の`workshop_crecomp`へログインする場合のパスワードは`root`  
 **WinSCPの場合**
 <img src="pic/winscp_login.png" height=300>
 

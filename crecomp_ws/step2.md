@@ -8,9 +8,7 @@
 
 [download](http://aquila.is.utsunomiya-u.ac.jp/~kazushi/xillinux-eval-zedboard-1.3c_forexp.zip)
 
-ダウンロードしたファイルはCドライブ直下の`exp_work_verilog`へコピーし，展開してください。  
-`C:\exp_work_verilog\xillinux-eval-zedboard-1.3c_forexp.zip`  
-展開後は以下のようなディレクトリがあるはずです。
+ダウンロードしたファイルは任意のディレクトリへコピーし，展開してください。  
 
 ```
 xillinux-eval-zedboard-1.3c_forexp
@@ -123,12 +121,12 @@ NET  sig_out LOC = AA9  | IOSTANDARD = LVCMOS33;
 
 処理が正常に終了した場合は`Process "Generate Programming File" completed successfully`のように表示されます。
 
-#####　ソフトウェアのコンパイル<br>(Zedboard：Teratermでの作業)
+#####　ソフトウェアのコンパイル<br>(Zedboard：コンソールでの作業)
 
-Zedboardのコンソール(Teraterm)を開き以下のコマンドでディレクトリ作成&コピーしてください。
+Zedboardのコンソールを開き以下のコマンドでディレクトリ作成&コピーしてください。
 
 ```
-cd ~/exp_workdir/
+cd ~/workshop_crecomp/
 mkdir test
 cp cReComp/devel/sensor_ctl/sensor_ctl.cpp test/
 cp cReComp/devel/sensor_ctl/lib_cpp.h test/
@@ -194,14 +192,14 @@ SDカードをPCへ挿入すると以下のようなファイルがあります�
 
 先ほど論理合成をしたハードウェア情報をSDカードへコピーします。
 
-`C:\exp_work_verilog\xillinux-eval-zedboard-1.3c_forexp\xillinux-eval-zedboard-1.3c_forexp\verilog`内の`xillydemo.bit`をSDカード内に上書きコピーします。  
+`xillinux-eval-zedboard-1.3c_forexp\xillinux-eval-zedboard-1.3c_forexp\verilog`内の`xillydemo.bit`をSDカード内に上書きコピーします。  
 コピー後，SDカードを抜き，Zedboardへ再挿入します。  
-Zedboardの電源を入れ，Teratermの起動とWinSCPによるログインをしなおします。
+Zedboardの電源を入れ，ログインをしなおします。
 
 以下のコマンドでテストプログラムを起動します。
 
 ```
-cd exp_workdir/test/
+cd workshop_crecomp/test/
 ./sensor_ctl
 ```
 

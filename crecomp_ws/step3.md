@@ -23,7 +23,7 @@ ROSのワークスペースを作ります。以下のコマンドを入力し�
 また，ROSに関するツールを使えるようにするため，パスを通しておきます。
 
 ```
-cd ~exp_workdir/
+cd ~workshop_crecomp/
 mkdir -p ros_ws/src
 cd ros_ws
 source /opt/ros/groovy/setup.bash
@@ -72,7 +72,7 @@ catkin_create_pkg openreroc_motionsensor roscpp std_msgs
 ワークスペースでもう一度catkin_makeしましょう。
 
 ```
-cd ~exp_workdir/ros_ws/
+cd ~workshop_crecomp/ros_ws/
 catkin_make
 ```
 
@@ -93,7 +93,7 @@ ROSでは処理に必要なデータは基本的にメッセージとして通�
 メッセージファイルを作成します。
 
 ```
-cd ~/exp_workdir/ros_ws/src/openreroc_motionsensor
+cd ~/workshop_crecomp/ros_ws/src/openreroc_motionsensor
 mkdir msg; cd msg
 touch sonic_sensor.msg
 emacs sonic_sensor.msg
@@ -110,10 +110,10 @@ uint32 sensor_data
 
 このメッセージファイルを元にメッセージ型を定義するヘッダファイルが生成されます。
 ヘッダファイル生成の設定を行うため以下のファイルを編集してください。  
-**WinSCPでファイルを編集する際は編集したファイルのタイムスタンプをtouchコマンドで更新してください。**
+<!-- **WinSCPでファイルを編集する際は編集したファイルのタイムスタンプをtouchコマンドで更新してください。** -->
 
 ```
-cd ~/exp_workdir/ros_ws/src/openreroc_motionsensor
+cd ~/workshop_crecomp/ros_ws/src/openreroc_motionsensor
 emacs CMakeLists.txt
 ```
 
@@ -153,13 +153,13 @@ include_directories(
 catkin_makeしましょう。
 
 ```
-cd ~/exp_workdir/ros_ws
+cd ~/workshop_crecomp/ros_ws
 catkin_make
 ```
 
 catkin_makeに成功すると以下のディレクトリにメッセージを定義したヘッダファイルが生成されます。  
 
-`less ~/exp_workdir/ros_ws/devel/include/openreroc_motionsensor/sonic_sensor.h`
+`less ~/workshop_crecomp/ros_ws/devel/include/openreroc_motionsensor/sonic_sensor.h`
 
 ```cpp
 //…
@@ -186,11 +186,11 @@ ROSのノードをC++言語で記述していきます。
 また，動作検証用のソフトウェアとして，sample_output.cppを追加します。
 
 ```
-cd ~/exp_workdir
+cd ~/workshop_crecomp
 cp cReComp/devel/sensor_ctl/sensor_ctl.cpp ros_ws/src/openreroc_motionsensor/src/openreroc_motionsensor.cpp
 cp cReComp/devel/sensor_ctl/lib_cpp.h ros_ws/src/openreroc_motionsensor/include/openreroc_motionsensor/
 touch ros_ws/src/openreroc_motionsensor/src/sample_output.cpp
-cd ~/exp_workdir/ros_ws/src/openreroc_motionsensor/src
+cd ~/workshop_crecomp/ros_ws/src/openreroc_motionsensor/src
 ```
 - openreroc_motionsensor.cpp：超音波センサで得た値をPublishするPublisher
 - sample_output.cpp：openreroc_motionsensor.cppがPublishしたメッセージをSubscribeするSubscriber
@@ -356,7 +356,7 @@ CMakeLists.txtを編集します。
 以下のコマンドでCMakeLists.txtを編集してください。
 
 ```
-cd ~/exp_workdir/ros_ws/src/openreroc_motionsensor
+cd ~/workshop_crecomp/ros_ws/src/openreroc_motionsensor
 emacs CMakeLists.txt
 ```
 
@@ -373,7 +373,7 @@ emacs CMakeLists.txt
 編集し終わったらビルドしましょう。
 
 ```
-cd ~/exp_workdir/ros_ws/
+cd ~/workshop_crecomp/ros_ws/
 catkin_make
 ```
 
@@ -388,7 +388,7 @@ ROSでは***roscore***というコマンドを始めに起動することでさ�
 **sample_output**を起動します。
 
 ```
-cd ~/exp_workdir/ros_ws
+cd ~/workshop_crecomp/ros_ws
 source devel/setup.bash
 roscore &
 rosrun openreroc_motionsensor sample_output
@@ -398,7 +398,7 @@ rosrun openreroc_motionsensor sample_output
 **openreroc_motionsensor**を起動します。
 
 ```
-cd ~/exp_workdir/ros_ws
+cd ~/workshop_crecomp/ros_ws
 source devel/setup.bash
 rosrun openreroc_motionsensor openreroc_motionsensor
 ```
