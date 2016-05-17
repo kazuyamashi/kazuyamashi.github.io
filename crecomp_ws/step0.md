@@ -14,12 +14,14 @@ root@localhost:~#
 https://github.com/kazuyamashi/workshop_crecomp.git
 ```
 **3：**　lsコマンドで`workshop_crecomp`があるか確認する  
+**基本的に`workshop_crecomp`内で作業を行っていただきます。 `workshop_crecomp`はこれ以降，ワークスペースと称します。**  
+  
 **4：**　以下のコマンドで`workshop_crecomp`へ入り`sonic_sensor.v`があるか確認する
 ```
 cd ~/workshop_crecomp; ls
 ```
 **5：**　ファイル転送ソフトなどによってZedboard内の`workshop_crecomp`へログインする場合のパスワードは`root`  
-**WinSCPの場合**
+**WinSCPの場合**  
 <img src="pic/winscp_login.png" height=300>
 
 **6：** dateコマンドで時間の設定を行う 書式`date MMDDHHmm[[CC]YY]`  
@@ -28,21 +30,22 @@ cd ~/workshop_crecomp; ls
 date 052415302016
 ```
 
-**基本的に`workshop_crecomp`内で作業を行っていただきます。 `workshop_crecomp`はこれ以降，ワークスペースと称します。**  
+
 
 **各ファイルの編集方法**  
 Zedboard上のLinuxにはemacsもインストールされていますのでそちらでもファイルの編集ができます。  
+
 **WinSCPの場合の編集の仕方**  
 任意のディレクトリ，ファイルを選択することで，PC上でエディタが起動します。  
 <img src="pic/scp_edit.png" height=400></img>  
 
-<!-- **Teratermによるssh接続**  
-コンソールが1つで足りない際はTeratermによるssh接続が可能です。
+**Teratermによるssh接続**  
+コンソールが1つで足りない際はTeratermによるssh接続が可能です。  
 Teraterm上のメニューバーの`ファイル→新しい接続`
 を選択し，  
-以下のような画面において*ホスト*にipアドレス(自分のZedboardのipアドレス)を入力するとで接続できます。 -->
+以下のような画面において*ホスト*にipアドレス(自分のZedboardのipアドレス)を入力するとで接続できます。
 
-<!-- <img src="pic/ssh.png"> -->
+<img src="pic/ssh.png">
 
 **実験中のファイル編集について**  
 実験中のファイル編集について以下のような表現があります。

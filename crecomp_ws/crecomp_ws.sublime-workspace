@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"cRe",
+				"cReComp　ワークショップ"
+			],
+			[
 				"gen",
 				"genword〔argument〕"
 			],
@@ -407,6 +411,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "step0.md",
+			"settings":
+			{
+				"buffer_size": 2908,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/cygwin/home/kazushi/test_crecomp/readme.md",
+			"settings":
+			{
+				"buffer_size": 327,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -514,6 +534,24 @@
 	],
 	"file_history":
 	[
+		"/D/cygwin/home/kazushi/test_crecomp/sensor_ctl.cpp",
+		"/D/share/experiment_userdata/exp_workdir_0000/test/sample.cpp",
+		"/D/cygwin/home/kazushi/deep-learning/main/learning_fisher.py",
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step0.html",
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/support_doc.html",
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/index.html",
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step1.html",
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step3.html",
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step4.html",
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step2.html",
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/index.md",
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step0.md",
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step4.md",
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step3.md",
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step2.md",
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step1.md",
+		"/D/cygwin/home/kazushi/cReComp/sub_module/sonic_sensor.v",
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step1_160514172708.html",
 		"/C/Users/kazushi/Desktop/deat_data/data_sample/readme.md",
 		"/C/Users/kazushi/AppData/Local/Temp/scp34067/home/kazushi/work_space/death-march-committee/yamashina/python/subjects/facerecog.py",
 		"/C/Users/kazushi/AppData/Local/Temp/scp00726/home/kazushi/work_space/death-march-committee/yamashina/python/subjects/txtmaching.py",
@@ -536,7 +574,6 @@
 		"/D/cygwin/etc/wgetrc",
 		"/D/cygwin/home/kazushi/deep-learning/image_processing/lbpcascade_animeface/README.md",
 		"/D/cygwin/home/kazushi/deep-learning/readme.md",
-		"/D/cygwin/home/kazushi/deep-learning/main/learning_fisher.py",
 		"/D/cygwin/home/kazushi/deep-learning/exe_deeplearning.sh",
 		"/D/cygwin/home/kazushi/deep-learning/src/learning_fisher.py",
 		"/D/cygwin/home/kazushi/cReComp/cReComp.py",
@@ -558,7 +595,6 @@
 		"/D/cygwin/home/kazushi/cReComp/sub_module/readme",
 		"/D/cygwin/home/kazushi/cReComp/scrp/readme",
 		"/D/cygwin/home/kazushi/cReComp/devel/readme",
-		"/D/cygwin/home/kazushi/cReComp/sub_module/sonic_sensor.v",
 		"/D/cygwin/home/kazushi/fpga_comp_experiment/sensor_ctl.scrp",
 		"/D/cygwin/home/kazushi/cReComp/lib/lib_alw8",
 		"/D/cygwin/home/kazushi/cReComp/lib/lib_alw32",
@@ -625,27 +661,11 @@
 		"/D/cygwin/home/kazushi/cReComp/lib/lib.cpp",
 		"/C/Users/kazushi/AppData/Local/Temp/scp38899/root/common_space/test/main.cpp",
 		"/C/Users/kazushi/AppData/Local/Temp/scp38235/root/common_space/test/lib_cpp.h",
-		"/D/cygwin/home/kazushi/cReComp/lib/lib_cpp.h",
-		"/D/cygwin/home/kazushi/cReComp/lib/check_option.py",
-		"/C/Users/kazushi/AppData/Local/Temp/scp48430/root/common_space/test/sensor_ctl.h",
-		"/C/Users/kazushi/AppData/Local/Temp/scp47535/root/common_space/test/sensot_ctl.h",
-		"/D/cygwin/home/kazushi/cReComp/scrp/sensor_ctl_kimura.scrp",
-		"/D/cygwin/home/kazushi/cReComp/devel/sensor_ctl_debug/sensor_ctl_debug.v",
-		"/D/cygwin/home/kazushi/cReComp/result.txt",
-		"/C/Users/kazushi/AppData/Local/Temp/scp46967/root/xillybus/demoapps/streamread.c",
-		"/C/Users/kazushi/AppData/Local/Temp/scp23110/root/open_reroc_ws/src/openreroc_motion_sensor/src/openreroc_motion_sensor.cpp",
-		"/C/Users/kazushi/AppData/Local/Temp/scp33175/root/xillybus/demoapps/streamwrite.c",
-		"/C/Users/kazushi/AppData/Local/Temp/scp50223/root/xillybus/demoapps/Makefile",
-		"/D/cygwin/home/kazushi/cReComp/test/main.cpp",
-		"/D/cygwin/home/kazushi/cReComp/test/lib_cpp.h",
-		"/C/Users/kazushi/AppData/Local/Temp/scp37290/home/kazushi/work_space/test/main.cpp",
-		"/C/Users/kazushi/AppData/Local/Temp/scp35554/home/kazushi/work_space/test/lib_cpp.h",
-		"/C/Users/kazushi/AppData/Roaming/Sublime Text 3/Packages/User/Terminal.sublime-settings",
-		"/C/Users/kazushi/AppData/Roaming/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings"
+		"/D/cygwin/home/kazushi/cReComp/lib/lib_cpp.h"
 	],
 	"find":
 	{
-		"height": 29.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -659,6 +679,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"exp_workdir",
+			"ws_workdir",
+			"・",
 			"lebeling_resut",
 			"input_image",
 			"file",
@@ -783,10 +806,7 @@
 			"bitwidth",
 			"3",
 			"and",
-			"puts",
-			"sub_module",
-			"ans_32_alw",
-			"1"
+			"puts"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -794,6 +814,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"workshop_crecomp",
 			"8",
 			"/*module_name*/",
 			"8",
@@ -848,8 +869,67 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "step0.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2908,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								171,
+								171
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/cygwin/home/kazushi/test_crecomp/readme.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 327,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								228,
+								228
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -896,7 +976,7 @@
 	"project": "crecomp_ws.sublime-project",
 	"replace":
 	{
-		"height": 54.0
+		"height": 114.0
 	},
 	"save_all_on_build": true,
 	"select_file":
