@@ -24,7 +24,8 @@ xillinux-eval-zedboard-1.3c_forexp
 <img src="pic/verilog_copy.png" height=400>
 
 `xillinux-eval-zedboard-1.3c_forexp\verilog`内にある**xillydemo.xise**をダブルクリックして開発環境を起動します。  
-project→Add Sourceで先ほどコピーした`sensor_ctl.v`と`sonic_sensor.v`をプロジェクトへ追加します。
+project→Add Sourceで先ほどコピーした`sensor_ctl.v`と`sonic_sensor.v`をプロジェクトへ追加します。  
+*[Windows 10においてAdd SourceをしようとするとISE終了してしまう場合の対策](http://www.eevblog.com/forum/microcontrollers/guide-getting-xilinx-ise-to-work-with-windows-8-64-bit/)
 
 <img src="pic/add_src.png">
 
@@ -92,7 +93,7 @@ sensor_ctl sensor_ctl(
 );
 ```
 
-以上の編集が終わると左横のHierarchyは以下のようになります。
+以上の編集が終わり、セーブすると左横のHierarchyは以下のようになります。
 
 <img src="pic/sensor_added.png">
 
@@ -121,7 +122,7 @@ NET  sig_out LOC = AA9  | IOSTANDARD = LVCMOS33;
 
 処理が正常に終了した場合は`Process "Generate Programming File" completed successfully`のように表示されます。
 
-#####　ソフトウェアのコンパイル<br>(Zedboard：コンソールでの作業)
+#####　ソフトウェアのコンパイル　(Zedboard：コンソールでの作業)
 
 Zedboardのコンソールを開き以下のコマンドでディレクトリ作成&コピーしてください。
 

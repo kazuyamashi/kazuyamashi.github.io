@@ -6,13 +6,13 @@ Open Source Robotics Foundationが開発・メンテナンスを行っており�
 ##### ROSの通信モデル
 <img src="pic/ros_pubsub.png">
 
-ROSでは***Publish/Subscribeメッセージング***と呼ばれる通信モデルで**ノード（ソフトウェア）同**士が通信します。
-各要素の役割は以下とおりです。
+ROSでは***Publish/Subscribeメッセージング***と呼ばれる通信モデルで**ノード（ソフトウェア）同士**が通信します。
+各要素の機能は以下とおりです。
 
 - Message：ROSで使用するデータの呼び名。中身のデータ構造はROSにあらかじめ用意されているものか独自の定義が可能
 - Topic：メッセージを分類する系統ごとに作成される論理チャネル
-- Publisher：メッセージを特定のトピックへ配信するノード
-- Subscriber：特定のトピックを購読対象として登録しメッセージを受信するノード
+- Publisher：メッセージを特定のトピックへ配信する
+- Subscriber：特定のトピックを購読対象として登録しメッセージを受信する
 
 ROSではこのようにPublisherとSubscriberがtopicを介してMessageをやり取りすることでデータ通信をします。
 Publish/Subscribeの特徴として，P2Pな通信であることがあげられます。これは，お互いが通信相手の情報を知る必要はなく，ノード構成ネットワークへの脱退，参加が容易になります。
@@ -321,7 +321,9 @@ int main(int argc, char *argv[]){
 using namespace std;
 
 void chatterCallback(const openreroc_motionsensor::sonic_sensor msg){
-	if(1<msg.sensor_data &&  msg.sensor_data<80000)
+	if (msg.sensor_data == 1)
+		continue;
+	else if(msg.sensor_data<80000)
 		cout << "1.0m" << endl;
 	else if(msg.sensor_data<82500)
 		cout << "1.2m" << endl;

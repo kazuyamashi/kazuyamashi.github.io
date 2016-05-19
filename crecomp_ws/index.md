@@ -1,6 +1,6 @@
 <div style="text-align: center;">
 
-<h2><span style="display:block">cReComp　ワークショップ</h2>
+<h1><span style="display:block">cReComp　ワークショップ</h1>
 <h5>
 宇都宮大学大学院工学研究科<br>
 情報システム科学専攻<br>
