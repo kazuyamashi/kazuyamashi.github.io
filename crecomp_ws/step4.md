@@ -8,7 +8,7 @@
 | Publisher    | file_in.cpp  | input.txtからファイル入力(リダイレクト禁止)、`file_data`というトピックへメッセージをPublish |
 | Subscriber   | file_out.cpp | `file_data`からデータを購読し，output.txtへ出力                                             |
 
-- 作成するディレクトリは`~/exp_workdir/ros_ws/src/openreroc_motionsensor/src`内に作成してください。
+- 作成するディレクトリは`~/workshop_crecomp/ros_ws/src/openreroc_motionsensor/src`内に作成してください。
 - メッセージファイルはStep3で作成したsensor_data.msgを使用してください。
 - sensor_data.msgを使用するには`#include openreroc_motionsensor/sensor_data.h`を定義する必要があります。
 - ノードの記述が終了したらCMakeLists.txtの末尾に以下のように追加してください。

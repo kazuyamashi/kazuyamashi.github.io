@@ -97,8 +97,8 @@ module_name sample
 //r_cycle_8
 //rw_condition_8{
 //if()
-//w_cycle_8
 //}
+//w_cycle_8
 //reg_list{}
 //wire_list{}
 sub_module_name sonic_sensor uut
@@ -210,8 +210,8 @@ end
 -//r_cycle_8
 -//rw_condition_8{
 - //if()
-- //w_cycle_8
 - //}
+- //w_cycle_8
 - //reg_list{}
 - //wire_list{}
 + wire_list{

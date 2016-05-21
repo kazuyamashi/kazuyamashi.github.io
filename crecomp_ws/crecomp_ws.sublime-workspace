@@ -412,18 +412,18 @@
 	"buffers":
 	[
 		{
-			"file": "step0.md",
+			"file": "step1.md",
 			"settings":
 			{
-				"buffer_size": 2908,
+				"buffer_size": 8911,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/D/cygwin/home/kazushi/test_crecomp/readme.md",
+			"file": "step2.md",
 			"settings":
 			{
-				"buffer_size": 327,
+				"buffer_size": 5083,
 				"line_ending": "Windows"
 			}
 		}
@@ -534,6 +534,13 @@
 	],
 	"file_history":
 	[
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step0.md",
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step1.md",
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/index.md",
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step3.md",
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step2.md",
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step4.md",
+		"/D/cygwin/home/kazushi/test_crecomp/readme.md",
 		"/D/cygwin/home/kazushi/test_crecomp/sensor_ctl.cpp",
 		"/D/share/experiment_userdata/exp_workdir_0000/test/sample.cpp",
 		"/D/cygwin/home/kazushi/deep-learning/main/learning_fisher.py",
@@ -544,12 +551,6 @@
 		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step3.html",
 		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step4.html",
 		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step2.html",
-		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/index.md",
-		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step0.md",
-		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step4.md",
-		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step3.md",
-		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step2.md",
-		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step1.md",
 		"/D/cygwin/home/kazushi/cReComp/sub_module/sonic_sensor.v",
 		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step1_160514172708.html",
 		"/C/Users/kazushi/Desktop/deat_data/data_sample/readme.md",
@@ -660,8 +661,7 @@
 		"/D/cygwin/home/kazushi/cReComp/lib/sample.cpp",
 		"/D/cygwin/home/kazushi/cReComp/lib/lib.cpp",
 		"/C/Users/kazushi/AppData/Local/Temp/scp38899/root/common_space/test/main.cpp",
-		"/C/Users/kazushi/AppData/Local/Temp/scp38235/root/common_space/test/lib_cpp.h",
-		"/D/cygwin/home/kazushi/cReComp/lib/lib_cpp.h"
+		"/C/Users/kazushi/AppData/Local/Temp/scp38235/root/common_space/test/lib_cpp.h"
 	],
 	"find":
 	{
@@ -679,6 +679,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"w_cycle_8",
+			"exp_workdir",
+			"さっそく、ｃReComp",
+			"Scrp",
 			"exp_workdir",
 			"ws_workdir",
 			"・",
@@ -802,11 +806,7 @@
 			"r",
 			"puts",
 			"port_stack",
-			"x",
-			"bitwidth",
-			"3",
-			"and",
-			"puts"
+			"x"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -874,28 +874,29 @@
 			[
 				{
 					"buffer": 0,
-					"file": "step0.md",
+					"file": "step1.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2908,
+						"buffer_size": 8911,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								171,
-								171
+								281,
+								281
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
-							"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.sublime-syntax"
+							"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 6372.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -903,28 +904,28 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/D/cygwin/home/kazushi/test_crecomp/readme.md",
-					"semi_transient": false,
+					"file": "step2.md",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 327,
+						"buffer_size": 5083,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								228,
-								228
+								3592,
+								3592
 							]
 						],
 						"settings":
 						{
-							"auto_complete": false,
-							"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.sublime-syntax"
+							"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2484.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -996,7 +997,7 @@
 		[
 			[
 				"",
-				"C:\\Users\\kazushi\\Dropbox\\研究室関係\\発表関係\\EUC2016\\euc2016.sublime-project"
+				"D:\\cygwin\\home\\kazushi\\sublime_project\\cReComp.sublime-project"
 			]
 		],
 		"width": 380.0
