@@ -411,6 +411,14 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/D/cygwin/home/kazushi/weekly/template/embedded_weekly.sh",
+			"settings":
+			{
+				"buffer_size": 1466,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -518,6 +526,7 @@
 	],
 	"file_history":
 	[
+		"/C/Users/kazushi/Downloads/xillinux-eval-zedboard-1.3c_forexp/xillinux-eval-zedboard-1.3c_forexp/verilog/src/sensor_ctl.v",
 		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step1.md",
 		"/C/Users/kazushi/Downloads/TimingAnalyzer_b9893/TimingAnalyzer_b9893/scripts/ita_reg_2_reg_jitter.py",
 		"/C/Users/kazushi/Downloads/TimingAnalyzer_b9893/TimingAnalyzer_b9893/scripts/dff.py",
@@ -644,8 +653,7 @@
 		"/D/cygwin/home/kazushi/cReComp/lib/lib_main.cpp",
 		"/D/cygwin/home/kazushi/cReComp/lib/common.py",
 		"/C/Users/kazushi/AppData/Local/Temp/scp47645/root/common_space/test2/lib_cpp.h",
-		"/D/cygwin/home/kazushi/cReComp/lib/sample.cpp",
-		"/D/cygwin/home/kazushi/cReComp/lib/lib.cpp"
+		"/D/cygwin/home/kazushi/cReComp/lib/sample.cpp"
 	],
 	"find":
 	{
@@ -853,8 +861,37 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/D/cygwin/home/kazushi/weekly/template/embedded_weekly.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1466,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								53,
+								53
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
