@@ -1,6 +1,6 @@
 <div style="text-align: center;">
 
-<h1><span style="display:block">cReComp　ワークショップ</h1>
+<h1><span style="display:block">cReComp Tutorial</h1>
 <h5>
 宇都宮大学大学院工学研究科<br>
 情報システム科学専攻<br>
@@ -14,7 +14,7 @@ kazushi@virgo.is.utsunomiya-u.ac.jp<br>
 周囲の状況に応じて行動する**自律移動型ロボット**は知的画像処理などの非常に複雑活膨大な計算を行う必要があります。
 高い処理性能が要求されているの対し自律移動型ロボットのバッテリ駆動のため，低消費電力化の観点から処理性能の高いプロセッサは搭載できず処理性能不足となる問題があります。  
 我々はこうした問題を解決するために，ロボット制御のプラットフォームとして電力性能比が高い**FPGA(Field Programmable Gate Array)**に注目しています。しかし，FPGAにおける開発は一般のプログラミング言語(CやJava)に比べて**HDL(Hardware Description Language)**による開発となるため，開発者への負担が大変大きいです。このような問題を解決し，FPGAを容易にロボットへ導入するため，ロボットシステムの開発運用のためのソフトウェアプラットフォームである***ROS**に準拠した，FPGAのソフトウェアコンポーネント化を提案しています。  
-本ワークショップでは実際に**FPGA向けの回路のコンポーネント化**，**コンポーネントのROSへの統合**を実際に体験していただ区ことができます。
+本チュートリアルでは実際に**FPGA向けの回路のコンポーネント化**，**コンポーネントのROSへの統合**を実際に体験していただ区ことができます。
 
 **ワークショップ中に扱うの専門用語の詳しい解説については[別途資料](support_doc.html)をご参照ください。**  
 
@@ -24,12 +24,12 @@ FPGAのROS準拠コンポーネント化を行う最大の目的はFPGAの利点
 	<img src="pic/normal_sys.png" width=600>
 	<img src="pic/comp_sys.png" width=700>
 </center>
-##　本ワークショップにおいて期待される効果
+##　本チュートリアルにおいて期待される効果
 - ROSを採用したロボットシステムのソフトウェア設計フローが理解できるようになる．
 - cReCompを用いてFPGA向けの回路をROSコンポーネント化し，その動作を検証できるようになる．
 - ROSフレームワークにコンポーネントを統合し，FPGAを用いたロボットシステムの設計ができるようになる
 
-## ワークショップの内容
+## チュートリアルの内容
 #### cReCompを用いたハードウェアのコンポーネント化とROSへの統合 
 
 大きく分けて3つのStepがあります。
@@ -38,9 +38,27 @@ FPGAのROS準拠コンポーネント化を行う最大の目的はFPGAの利点
 - コンポーネントの動作検証
 - ロボット開発・運用のためのソフトウェアプラットフォームであるROSへ作成したコンポーネントを統合と動作検証
 
-##　ワークショップ中の注意事項
+##使用するもの
+###ハードウェア
+- Zedboard
+	- Xilinx社製 Zynq-7020が搭載されたFPGAボード
+	- ZynqにはARMプロセッサとFPGAロジックが搭載されている
 
-- **作業中の休憩は自由に取っていただいてかまいません。また，途中で気分が悪くなった場合もお申し付けください。**
+###ソフトウェア
+- Xillinux 
+	- FPGAとプロセッサの通信のためのIPが提供されているLinux
+	- 中身はUbuntu 12.04
+	- [XillinuxのZedboardへの導入](https://kazuyamashi.github.io/Studies/Xillinux_tutorial.html)が必要
+- ROS groovy
+	- ROSのXillinuxへの導入が必要
+	- http://qiita.com/kazuyamashi/items/a99e216b780ad4786a99
+	- http://wiki.ros.org/groovy/Installation/UbuntuARM
+- FPGAの回路の論理合成ソフトウェア
+	- ISE14.7 web edition
+- あると便利なソフトウェア
+	- ターミナルソフト
+	- ファイル転送ソフト
+
 
 ## 作業手順
 [step0: 準備](step0.html)  
@@ -54,5 +72,5 @@ FPGAのROS準拠コンポーネント化を行う最大の目的はFPGAの利点
 [時間入力フォーム](http://goo.gl/forms/jBFCdQA3aN) -->
 
 ##アンケート
-ワークショップ終了後、以下のURLでアンケートに回答してください。  
+チュートリアル終了後、以下のURLでアンケートに回答してください。  
 [アンケート入力フォーム](http://goo.gl/forms/2rMYIMClPp)
