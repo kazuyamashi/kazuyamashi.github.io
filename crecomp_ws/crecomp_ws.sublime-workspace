@@ -411,14 +411,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/D/cygwin/home/kazushi/weekly/template/embedded_weekly.sh",
-			"settings":
-			{
-				"buffer_size": 1466,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -526,6 +518,33 @@
 	],
 	"file_history":
 	[
+		"/C/Users/kazushi/AppData/Local/Temp/scp12177/opt/death_data/test2/DEATH_March_Client/result_kiyoshi/kiyoshi.txt",
+		"/C/Users/kazushi/AppData/Local/Temp/scp29552/opt/death_data/teamGPU/client/result_txtmatch.txt",
+		"/C/Users/kazushi/AppData/Local/Temp/scp03090/opt/death_data/teamGPU/source/LABELING/server.c",
+		"/C/Users/kazushi/AppData/Local/Temp/scp50232/opt/death_data/face_detection/image/img_6.jpg",
+		"/C/Users/kazushi/AppData/Local/Temp/scp50100/opt/death_data/face_detection/image/img_5.jpg",
+		"/C/Users/kazushi/AppData/Local/Temp/scp48544/opt/death_data/face_detection/image/img_0.jpg",
+		"/C/Users/kazushi/AppData/Local/Temp/scp52693/opt/death_data/test2/DEATH_March_Client/label_output/img_0.png",
+		"/C/Users/kazushi/AppData/Local/Temp/scp26314/home/kazushi/work_space/death-march-committee/yamashina/python/subjects/facerecog.py",
+		"/C/Users/kazushi/AppData/Local/Temp/scp54457/home/fss5/kazushi/death_data/face_detection/img_49.jpg",
+		"/C/Users/kazushi/AppData/Local/Temp/scp25371/home/kazushi/work_space/gen_dataset/img_func.py",
+		"/C/Users/kazushi/AppData/Local/Temp/scp41898/root/test_crecomp/result.txt",
+		"/D/cygwin/home/kazushi/int2hex/int2hex.c",
+		"/D/cygwin/home/kazushi/girl_friend/main.cpp",
+		"/D/cygwin/home/kazushi/_crecomp/cReComp/cReComp.rb",
+		"/C/Users/kazushi/Dropbox/研究室関係/発表関係/SCI'16/sensor_ctl/sensor_ctl.v",
+		"/C/Users/kazushi/AppData/Local/Temp/scp32554/root/test_crecomp/sensor_ctl.cpp",
+		"/C/Users/kazushi/Dropbox/研究室関係/発表関係/SCI'16/sensor_ctl/lib_cpp.h",
+		"/C/Users/kazushi/AppData/Local/Temp/scp32314/root/test_crecomp/main.cpp",
+		"/C/Users/kazushi/Dropbox/研究室関係/発表関係/SCI'16/sensor_ctl/sensor_ctl.cpp",
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/index.html",
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/support_doc.html",
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step4.html",
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step3.html",
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step0.html",
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step2.html",
+		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step1.html",
+		"/D/cygwin/home/kazushi/weekly/template/embedded_weekly.sh",
 		"/C/Users/kazushi/Downloads/xillinux-eval-zedboard-1.3c_forexp/xillinux-eval-zedboard-1.3c_forexp/verilog/src/sensor_ctl.v",
 		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step1.md",
 		"/C/Users/kazushi/Downloads/TimingAnalyzer_b9893/TimingAnalyzer_b9893/scripts/ita_reg_2_reg_jitter.py",
@@ -540,13 +559,6 @@
 		"/D/cygwin/home/kazushi/test_crecomp/sensor_ctl.cpp",
 		"/D/share/experiment_userdata/exp_workdir_0000/test/sample.cpp",
 		"/D/cygwin/home/kazushi/deep-learning/main/learning_fisher.py",
-		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step0.html",
-		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/support_doc.html",
-		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/index.html",
-		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step1.html",
-		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step3.html",
-		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step4.html",
-		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step2.html",
 		"/D/cygwin/home/kazushi/cReComp/sub_module/sonic_sensor.v",
 		"/D/cygwin/home/kazushi/kazuyamashi.github.io/crecomp_ws/step1_160514172708.html",
 		"/C/Users/kazushi/Desktop/deat_data/data_sample/readme.md",
@@ -633,27 +645,7 @@
 		"/C/work/filter/solution1/impl/verilog/filter_est.v",
 		"/C/work/filter/solution1/impl/verilog/sim_tbs/filter_est.autotb.v",
 		"/C/Users/kazushi/Downloads/zedboard_master_UCF_RevC_v3/zedboard_master_UCF_RevC_v3.ucf",
-		"/D/work_space/SAMPLE/xillinux-eval-zedboard-1.3c_compiled/verilog/src/xillydemo.ucf",
-		"/C/Users/kazushi/Desktop/sensor_ctl.scrp",
-		"/D/cygwin/home/kazushi/cReComp/scrp/sensor_ctl.scrp",
-		"/D/work_space/exp_test/verilog/src/sonic_sensor.v",
-		"/D/work_space/openreroc_ultrasonic/verilog/src/sensor_ctl.v",
-		"/D/work_space/openreroc_ultrasonic/verilog/src/sonic_sensor.v",
-		"/D/work_space/openreroc_ultrasonic/verilog/src/xillydemo.ucf",
-		"/C/Users/kazushi/AppData/Local/Temp/scp05663/root/common_space/test3/sensor_ctl.cpp",
-		"/D/cygwin/home/kazushi/cReComp/devel/sample/sample.v",
-		"/D/cygwin/home/kazushi/open_reroc/openreroc_motion_sensor/hardware/src/sensor_ctl.v",
-		"/D/work_space/fifo_sample/fifo.v",
-		"/D/cygwin/home/kazushi/open_reroc/openreroc_motion_sensor/hardware/src/sonic_sensor.v",
-		"/C/Users/kazushi/AppData/Local/Temp/scp17439/root/common_space/test2/lib_cpp.h",
-		"/D/work_space/component_demo_sensor/verilog/src/xillydemo.ucf",
-		"/D/work_space/component_demo_sensor/verilog/src/sensor_ctl.v",
-		"/C/Users/kazushi/AppData/Local/Temp/scp46270/root/common_space/test2/main.cpp",
-		"/D/cygwin/home/kazushi/cReComp/lib/scrp_conf.py",
-		"/D/cygwin/home/kazushi/cReComp/lib/lib_main.cpp",
-		"/D/cygwin/home/kazushi/cReComp/lib/common.py",
-		"/C/Users/kazushi/AppData/Local/Temp/scp47645/root/common_space/test2/lib_cpp.h",
-		"/D/cygwin/home/kazushi/cReComp/lib/sample.cpp"
+		"/D/work_space/SAMPLE/xillinux-eval-zedboard-1.3c_compiled/verilog/src/xillydemo.ucf"
 	],
 	"find":
 	{
@@ -861,37 +853,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/D/cygwin/home/kazushi/weekly/template/embedded_weekly.sh",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1466,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								53,
-								53
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
