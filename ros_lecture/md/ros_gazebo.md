@@ -24,7 +24,7 @@ roslaunch turtlebot_gazebo turtlebot_world.launch
 ```
 起動すると以下のような画面になります。
 
-<img src="../pic/gazebo_boot.png" width=500>
+<img src="pic/gazebo_boot.png" width=500>
 
 シミュレータ中のturtlebotを操作するため，操作ツールを起動します。  
 新しいターミナルを開いて以下のコマンドを使用します。
@@ -68,12 +68,12 @@ roslaunch turtlebot_rviz_launchers view_robot.launch
 ```
 起動すると以下のような画面が起動します。
 
-<img src="../pic/rviz.png" width=500>
+<img src="pic/rviz.png" width=500>
 
 左横にあるリストの中でについて任意の要素についてチェックをつけるとセンサ情報が可視化され  
 リアルタイムで出力されます。以下の例では**LaserScan**と**DepthCloud**のチェックを入れています。
 
-<img src="../pic/rviz_add.png" width=500>
+<img src="pic/rviz_add.png" width=500>
 
 ###シミュレーション条件の変更
 
@@ -95,7 +95,7 @@ roslaunch turtlebot_gazebo turtlebot_world.launch
 
 起動すると先ほどとは違うシミュレーション条件になりました。
 
-<img src="../pic/gazebo_co.png" width=500>
+<img src="pic/gazebo_co.png" width=500>
 
 
 ##参考

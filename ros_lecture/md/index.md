@@ -20,7 +20,6 @@
 	- ROSの開発において一般的に使用されるGazeboシミュレータの紹介
 - **[ROSパッケージリリースの仕方](ros_packrelease.html)**
 	- 独自のROSパッケージを公式wikiへの公開方法
-- **[我々のプロジェクトのデモ・PBL](http://aquila.is.utsunomiya-u.ac.jp/~kazushi/exp/)**
 
 ##連絡先
 kazushi_at_virgo.is.utsunomiya-u.ac.jp
