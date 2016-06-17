@@ -508,6 +508,9 @@
 	],
 	"file_history":
 	[
+		"/D/cygwin/home/kazushi/cReComp2/devel/sensor_ctl/sensor_ctl.cpp",
+		"/D/cygwin/home/kazushi/cReComp2/devel/sensor_ctl/sensor_ctl.v",
+		"/D/cygwin/home/kazushi/math/main.c",
 		"/D/cygwin/home/kazushi/kazuyamashi.github.io/ros_lecture/md/index.md",
 		"/D/cygwin/home/kazushi/kazuyamashi.github.io/ros_lecture/ros_packrelease.html",
 		"/D/cygwin/home/kazushi/kazuyamashi.github.io/ros_lecture/ros_study.html",
@@ -632,10 +635,7 @@
 		"/C/Users/kazushi/AppData/Local/Temp/scp38899/root/common_space/test/main.cpp",
 		"/C/Users/kazushi/AppData/Local/Temp/scp38235/root/common_space/test/lib_cpp.h",
 		"/D/cygwin/home/kazushi/cReComp/lib/lib_cpp.h",
-		"/D/cygwin/home/kazushi/cReComp/lib/check_option.py",
-		"/C/Users/kazushi/AppData/Local/Temp/scp48430/root/common_space/test/sensor_ctl.h",
-		"/C/Users/kazushi/AppData/Local/Temp/scp47535/root/common_space/test/sensot_ctl.h",
-		"/D/cygwin/home/kazushi/cReComp/scrp/sensor_ctl_kimura.scrp"
+		"/D/cygwin/home/kazushi/cReComp/lib/check_option.py"
 	],
 	"find":
 	{
