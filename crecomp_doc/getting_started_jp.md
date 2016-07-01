@@ -54,6 +54,8 @@ $ crecomp -u sonic_sensor.v -t sensor_ctl.py
 	- ユーザロジックの解析とテンプレート生成の際に自動的に記述されるユーザロジックのクラスの基本クラスである`Util`が定義されています．
 - component (as cp)
 	- `Component` クラスが定義されてあります.このクラスはコンポーネント化を行うた目に必要なすべての内容を保持するクラスであり，最も重要なクラス定義です．
+-verilog (as vl)
+	- Verilog HDLのコード生成のためのモジュールです。．
 - communication (as com)
 	- コンポーネントのハードウェアとソフトウェア間の通信について設定するためのクラスが定義されてあります.
 
@@ -63,6 +65,7 @@ $ crecomp -u sonic_sensor.v -t sensor_ctl.py
 
 import crecomp.userlogic as ul
 import crecomp.component as cp
+import crecomp.verilog as vl
 import crecomp.communication as com
 
 class Sonic_sensor(ul.Util):
@@ -230,6 +233,7 @@ cp.componentize()
 
 import crecomp.userlogic as ul
 import crecomp.component as cp
+import crecomp.verilog as vl
 import crecomp.communication as com
 
 class Sonic_sensor(ul.Util):

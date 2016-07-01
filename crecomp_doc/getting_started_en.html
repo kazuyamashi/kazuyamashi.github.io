@@ -55,36 +55,34 @@ So, please install cReComp following the URL.<br>
 </pre></div>
 
 
-<p>When generation completed successfully, <code>sensor_ctl.py</code> has been described such sa the following code with Python.<br>
+<p>When generation completed successfully, <code>sensor_ctl.py</code> has been described such as the following code with Python.<br>
 The description is generated automatically by cReComp.<br>
 The <code>Sonic_sensor</code> class has information of user logic (sonic_sensor.v): module name, signals (input, output, inout), instance name, path to itself, and the assignment of each signal. The class mast be inherited <code>crecomp.userlogic.Util</code> class.</p>
 <p>In addition, each imported module functions are shown in following list.</p>
 <ul>
 <li>userlogic (as ul)<ul>
-<li>For analysis of target user logic. And, base class (<code>Util</code>) was defined.</li>
-</ul>
-</li>
-<li>verilog (as vl)<ul>
-<li>For verilog code generation.</li>
+<li>For analysis of target user logic. And, base class (<code>Util</code>) was defined. This module uses veriloggen, pyverilog, iveriog.</li>
 </ul>
 </li>
 <li>component (as cp)<ul>
 <li><code>Component</code> class was defined in this module. The class is the most important and it has all of configuration data in componentization.</li>
 </ul>
 </li>
+<li>verilog (as vl)<ul>
+<li>For code generation of Verilog HDL. This module uses jinja2.</li>
+</ul>
+</li>
 <li>communication (as com)<ul>
-<li>Some classes was defined in this module. Using the classes, developer can  configure to communicate between CPU and FPGA on FPGA component. </li>
+<li>Some classes was defined in this module. Using the classes, developer can configure to communicate between CPU and FPGA on FPGA component. </li>
 </ul>
 </li>
 </ul>
 <div class="codehilite"><pre><span class="c">#!/usr/bin/python</span>
 <span class="c"># -*- coding: utf-8 -*-</span>
-<span class="kn">import</span> <span class="nn">sys</span>
-<span class="kn">import</span> <span class="nn">os</span>
 
 <span class="kn">import</span> <span class="nn">crecomp.userlogic</span> <span class="kn">as</span> <span class="nn">ul</span>
-<span class="kn">import</span> <span class="nn">crecomp.verilog</span> <span class="kn">as</span> <span class="nn">vl</span>
 <span class="kn">import</span> <span class="nn">crecomp.component</span> <span class="kn">as</span> <span class="nn">cp</span>
+<span class="kn">import</span> <span class="nn">crecomp.verilog</span> <span class="kn">as</span> <span class="nn">vl</span>
 <span class="kn">import</span> <span class="nn">crecomp.communication</span> <span class="kn">as</span> <span class="nn">com</span>
 
 <span class="k">class</span> <span class="nc">Sonic_sensor</span><span class="p">(</span><span class="n">ul</span><span class="o">.</span><span class="n">Util</span><span class="p">):</span>
@@ -126,8 +124,9 @@ The <code>Sonic_sensor</code> class has information of user logic (sonic_sensor.
 
 
 <h5>3.2 Add signals to Component object for user logic</h5>
-<div class="codehilite"><pre><span class="c"># add functions usage</span>
-<span class="c"># </span>
+<div class="codehilite"><pre><span class="c"># add functions add_*(name, bit) usage</span>
+<span class="c"># @param name : signal name</span>
+<span class="c"># @param bit  : bit width of signal</span>
 
 <span class="c"># for this module (component)</span>
 <span class="n">cp</span><span class="o">.</span><span class="n">add_input</span><span class="p">(</span><span class="s">&quot;clk&quot;</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
@@ -144,14 +143,14 @@ The <code>Sonic_sensor</code> class has information of user logic (sonic_sensor.
 
 <p>Signals for <code>req</code> and <code>out_data</code> in user logic will be defined when communication logic is decided. Since the signals should be connected with CPU (software).</p>
 <h5>3.3 Select communication logic and add signals for data communication</h5>
-<p>In this Getting Started, the logic to communicate is <strong>Xillinux</strong> for free use. Xillinux is released by <a href="http://xillybus.com">Xillybus</a>. Xillinux is Ubuntu OS to run on a <strong>programmable SoC</strong> which equips FPGA and CPU like Zynq-7020 or Cyclone V and so on. It provides communication logic for  FPGA and CPU communicate through FIFO buffers, and the FIFO width is 32 bit or 8 bit (due to free version). Controlling the FIFO buffers by circuit on FPGA side, FPGA and CPU can send or receive data each other.  </p>
+<p>In this Getting Started, the logic to communicate is <strong>Xillinux</strong> for free use. Xillinux is released by <a href="http://xillybus.com">Xillybus</a>. Xillinux is Ubuntu OS to run on a <strong>programmable SoC</strong> which equips FPGA and CPU like Zynq or Cyclone V and so on. It provides communication logic for FPGA and CPU communicate through FIFO buffers, and the FIFO width is 32 bit or 8 bit (due to free version). Controlling the FIFO buffers by circuit on FPGA side, FPGA and CPU can send or receive data each other.  </p>
 <p>cReComp supports the control logic for the FIFO buffers (32 bit and 8 bit) on Xillinux.   </p>
 <p>First, <strong>Some elements should be specified as arguments of a constructor for configuration</strong>, when developer use class object of <code>communication</code> like following code (this time, 32 bit is used).</p>
 <div class="codehilite"><pre><span class="c"># Xillybus_fifo(rcv_cycle, snd_cycle, rs_cond, fifo_width)</span>
-<span class="c"># @oaram rcv_cycle  : times which user logic receives data from CPU</span>
-<span class="c"># @oaram snd_cycle  : times which user logic sends data to CPU</span>
-<span class="c"># @oaram rs_cond    : condition of timing to change receive and send</span>
-<span class="c"># @oaram fifo_width : FIFO width of Xllibus IP</span>
+<span class="c"># @param rcv_cycle  : times which user logic receives data from CPU</span>
+<span class="c"># @param snd_cycle  : times which user logic sends data to CPU</span>
+<span class="c"># @param rs_cond    : condition of timing to change receive or send</span>
+<span class="c"># @param fifo_width : FIFO width of Xllibus IP</span>
 <span class="n">fifo_32</span> <span class="o">=</span> <span class="n">com</span><span class="o">.</span><span class="n">Xillybus_fifo</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="s">&quot;finish_flag &amp;&amp; busy_flag != 0&quot;</span><span class="p">,</span> <span class="mi">32</span><span class="p">)</span>
 </pre></div>
 
@@ -221,17 +220,15 @@ The <code>Sonic_sensor</code> class has information of user logic (sonic_sensor.
 </pre></div>
 
 
-<h4>4. Configuration is finished</h4>
+<h3>4. Configuration is finished</h3>
 <div class="codehilite"><pre><span class="c"># sensor_ctl.py</span>
 
 <span class="c">#!/usr/bin/python</span>
 <span class="c"># -*- coding: utf-8 -*-</span>
-<span class="kn">import</span> <span class="nn">sys</span>
-<span class="kn">import</span> <span class="nn">os</span>
 
 <span class="kn">import</span> <span class="nn">crecomp.userlogic</span> <span class="kn">as</span> <span class="nn">ul</span>
-<span class="kn">import</span> <span class="nn">crecomp.verilog</span> <span class="kn">as</span> <span class="nn">vl</span>
 <span class="kn">import</span> <span class="nn">crecomp.component</span> <span class="kn">as</span> <span class="nn">cp</span>
+<span class="kn">import</span> <span class="nn">crecomp.verilog</span> <span class="kn">as</span> <span class="nn">vl</span>
 <span class="kn">import</span> <span class="nn">crecomp.communication</span> <span class="kn">as</span> <span class="nn">com</span>
 
 <span class="k">class</span> <span class="nc">Sonic_sensor</span><span class="p">(</span><span class="n">ul</span><span class="o">.</span><span class="n">Util</span><span class="p">):</span>
@@ -286,7 +283,7 @@ The <code>Sonic_sensor</code> class has information of user logic (sonic_sensor.
 
 <h4>5. Generate component</h4>
 <p>Please run your script.</p>
-<div class="codehilite"><pre>python sensor_ctl.py
+<div class="codehilite"><pre>$ python sensor_ctl.py
 </pre></div>
 
 

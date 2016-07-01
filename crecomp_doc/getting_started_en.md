@@ -48,9 +48,11 @@ The `Sonic_sensor` class has information of user logic (sonic_sensor.v): module 
 In addition, each imported module functions are shown in following list.
 
 - userlogic (as ul)
-	- For analysis of target user logic. And, base class (`Util`) was defined.
+	- For analysis of target user logic. And, base class (`Util`) was defined. This module uses veriloggen, pyverilog, iveriog.
 - component (as cp)
 	- `Component` class was defined in this module. The class is the most important and it has all of configuration data in componentization.
+- verilog (as vl)
+	- For code generation of Verilog HDL. This module uses jinja2.
 - communication (as com)
 	- Some classes was defined in this module. Using the classes, developer can configure to communicate between CPU and FPGA on FPGA component. 
 
@@ -61,6 +63,7 @@ In addition, each imported module functions are shown in following list.
 
 import crecomp.userlogic as ul
 import crecomp.component as cp
+import crecomp.verilog as vl
 import crecomp.communication as com
 
 class Sonic_sensor(ul.Util):
@@ -226,6 +229,7 @@ cp.componentize()
 
 import crecomp.userlogic as ul
 import crecomp.component as cp
+import crecomp.verilog as vl
 import crecomp.communication as com
 
 class Sonic_sensor(ul.Util):
