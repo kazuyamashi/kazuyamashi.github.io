@@ -41,7 +41,7 @@ cReCompではコンポーネント化するための設定記述ファイルの�
 
 
 ```
-$ crecomp -u sonic_sensor.v -t sensor_ctl.py
+$ crecomp -u sonic_sensor.v -p sensor_ctl.py
 ```
 
 テンプレートファイルの生成に成功すると，`sensor_ctl.py`というファイルができているはずです。また，生成されたファイルの内容は以下ようなPythonのコードのようになっています。  

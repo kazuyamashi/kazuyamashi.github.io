@@ -38,7 +38,7 @@ module sonic_sensor(
 Let's generate a template file for configuration of componentization with cReComp. Then, please specify path to user logic (sonic_sensor.v) and name of template file on command line.
 
 ```
-$ crecomp -u sonic_sensor.v -t sensor_ctl.py
+$ crecomp -u sonic_sensor.v -p sensor_ctl.py
 ```
 
 When generation completed successfully, `sensor_ctl.py` has been described such as the following code with Python.  
