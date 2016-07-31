@@ -1,5 +1,0 @@
-AuthType Basic
-AuthName "Input your ID and Password."
-AuthGroupFile /dev/null
-AuthUserFile .htpasswd
-require valid-user
