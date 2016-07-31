@@ -12,7 +12,7 @@ def generate_index_html():
 	contact = unicode(open(TEMPLATE+"contact.html","r").read(),encoding='utf-8')
 
 	env = Environment(loader=FileSystemLoader(TEMPLATE, encoding='utf_8'))
-	tpl = env.get_template('index.jinja2')
+	tpl = env.get_template('index.html')
 
 	html_string = tpl.render({'profile': profile,
 							'works': works,

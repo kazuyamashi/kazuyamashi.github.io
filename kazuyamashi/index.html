@@ -42,7 +42,7 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<!-- <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.deep_purple-pink.min.css"> -->
-		<link rel="stylesheet" href="theme/material.green_orange.min.css">
+		<link rel="stylesheet" href="theme/material.blue_umber.min.css">
 		<link rel="stylesheet" href="styles.css">
 		<style>
 		#view-source {
@@ -73,18 +73,24 @@
 								<a href="#works" class="mdl-layout__tab">Works</a>
 								<a href="#studies" class="mdl-layout__tab">Studies</a>
 								<a href="#contact" class="mdl-layout__tab">Contact</a>
-						<div class="mdl-card__menu">
-							<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="share">
-									<i class="material-icons md-dark" >share</i>
-							</button>
-							<ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="share">
-									<li class="mdl-menu__item">
-											<a href="https://twitter.com/share" data-size="large" data-url="https://kazuyamashi.github.io/" data-via="KazushihsuzaK" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-									</li>
-									<li class="mdl-menu__item">Facebook</li>
-									<li class="mdl-menu__item">Tumblr</li>
-							</ul>
-							</div>
+								<div class="mdl-card__menu">
+									<!-- <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="share">
+											<i class="material-icons md-dark" >share</i>
+									</button>
+ -->									<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored mdl-shadow--4dp mdl-color--accent" id="share">
+            <i class="material-icons md-light" >share</i>
+            <!-- <span class="visuallyhidden">Add</span> -->
+          </button>
+ 											<ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="share">
+											<li class="mdl-menu__item">
+													<a href="https://twitter.com/share" data-size="large" data-url="https://kazuyamashi.github.io/" data-via="KazushihsuzaK" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+											</li>
+											<li class="mdl-menu__item">
+												<div class="fb-share-button" data-href="https://kazuyamashi.github.io" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fkazuyamashi.github.io%2F&amp;src=sdkpreparse">シェア</a></div>
+											</li>
+											<li class="mdl-menu__item">Tumblr</li>
+									</ul>
+								</div>
 						</div>
 				</header>
 				<main class="mdl-layout__content">
@@ -108,7 +114,7 @@
 								<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
 										<div class="mdl-card mdl-cell mdl-cell--12-col">
 												<div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
-														<h4 class="mdl-cell mdl-cell--12-col">My project</h4>
+														<h4 class="mdl-cell mdl-cell--12-col">Recommend Topic</h4>
 														<div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
 																<div class="section__circle-container__circle mdl-color--primary"></div>
 														</div>
@@ -121,45 +127,33 @@
 																<div class="section__circle-container__circle mdl-color--primary"></div>
 														</div>
 														<div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-																<h5>Lorem ipsum dolor sit amet</h5> Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Duis nulla tempor do aute et eiusmod velit exercitation nostrud quis <a href="#">proident minim</a>.
+																<h5>Qiita</h5>
+																Qiitaで記事書いてます。<br>
+																<a href="http://qiita.com/kazuyamashi">kazuyamashi</a>
 														</div>
 														<div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
 																<div class="section__circle-container__circle mdl-color--primary"></div>
 														</div>
 														<div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-																<h5>Lorem ipsum dolor sit amet</h5> Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Duis nulla tempor do aute et eiusmod velit exercitation nostrud quis <a href="#">proident minim</a>.
+																<h5>ROS入門</h5> 
+																ROSに関する基本をまとめました。<br>
+																<a href="https://kazuyamashi.github.io/ros_lecture/index.html">ROSについて学ぼう</a>
 														</div>
 												</div>
-												<div class="mdl-card__actions">
+<!-- 												<div class="mdl-card__actions">
 														<a href="#studies" class="mdl-button">Read our features</a>
 												</div>
-										</div>
-										<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn2">
-												<i class="material-icons">more_vert</i>
-										</button>
-										<ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn2">
-												<li class="mdl-menu__item">Lorem</li>
-												<li class="mdl-menu__item" disabled>Ipsum</li>
-												<li class="mdl-menu__item">Dolor</li>
-										</ul>
+ -->									</div>
 								</section>
 								<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
 										<div class="mdl-card mdl-cell mdl-cell--12-col">
 												<div class="mdl-card__supporting-text">
-														<a class="twitter-timeline" data-lang="ja" data-width="512" data-height="200" data-link-color="#19CF86" href="https://twitter.com/KazushihsuzaK">Tweets by KazushihsuzaK</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+														Contact
 												</div>
-												<div class="mdl-card__actions">
+												<!-- <div class="mdl-card__actions">
 														<a href="#" class="mdl-button">Read our features</a>
-												</div>
+												</div> -->
 										</div>
-										<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn3">
-												<i class="material-icons">more_vert</i>
-										</button>
-										<ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn3">
-												<li class="mdl-menu__item">Lorem</li>
-												<li class="mdl-menu__item" disabled>Ipsum</li>
-												<li class="mdl-menu__item">Dolor</li>
-										</ul>
 								</section>
 								<section class="section--footer mdl-color--white mdl-grid">
 										<div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
@@ -238,9 +232,6 @@
 					</li>
 			</p>
 		</div>
-		<!-- <div class="mdl-card__actions">
-				<a href="#overview" class="mdl-button">Read our features</a>
-		</div> -->
 </div>
 <!-- <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn3">
 		<i class="material-icons">more_vert</i>
@@ -391,14 +382,53 @@
 						<div class="mdl-layout__tab-panel" id="studies">
 								<section class="section--center mdl-grid mdl-grid--no-spacing">
 									<div class="mdl-cell mdl-cell--12-col">
-										<h4>Studies</h4>
+										<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+	<div class="mdl-card mdl-cell mdl-cell--12-col">
+		<div class="mdl-card__supporting-text">
+			<h3>Studies</h3>
+			<h5>FPGA×ROS</h5>
+				<h6><a href="crecomp_ws/index.html">cReCompのチュートリアル</a></h6>
+				<h6><a href="Studies/openreroc_pwm_intro.html">OpenReroc openreroc_pwmの紹介</a></h6>
+			<h5>FPGA関連</h5>
+				<h6><a href="Studies/Xillinux_tutorial.html">Xillinuxの導入の仕方</a></h6>
+			<h5>ROS関連</h5>
+				<h6><a href="ros_lecture/index.html">ROSの基礎的知識まとめ</a></h6>
+				<h6><a href="Studies/ros_tutorial.html">ROSにおける基本的な開発をする</a></h6>
+			<h5>Deep Learnig</h5>
+				<h6><a href="https://github.com/kazuyamashi/deep-learning">Deep Learningの実装</a></h6>
+		</div>
+	</div>
+</section>
+
 									</div>
 								</section>
 						</div>
 						<div class="mdl-layout__tab-panel" id="contact">
 								<section class="section--center mdl-grid mdl-grid--no-spacing">
 										<div class="mdl-cell mdl-cell--12-col">
-											<h4>Contact</h4>
+											<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+<div class="mdl-card mdl-cell mdl-cell--12-col">
+		<div class="mdl-card__supporting-text">
+		<h3>My account</h3><br>
+			<a href="https://twitter.com/KazushihsuzaK">
+				<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+	 				<img src="images/twitter.png" height="32"></img>
+				</button>
+			</a> : KazushihsuzaK<br>
+			<a href="https://www.facebook.com/kazushi.yamashina">
+				<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+	 				<img src="images/facebook.png" height="32"></img>
+				</button>
+			</a> : Kazushi Yamashina<br>
+			<a href="https://github.com/kazuyamashi">
+				<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+	 				<img src="images/github.png" height="32"></img>
+				</button>
+			</a> : kazuyamashi
+		</div>
+	</div>
+</section>
+
 										</div>
 								</section>
 						</div>
@@ -409,10 +439,10 @@
 												<input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
 												<h1 class="mdl-mega-footer--heading">Features</h1>
 												<ul class="mdl-mega-footer--link-list">
-														<li><a href="#">About</a></li>
-														<li><a href="#">Terms</a></li>
-														<li><a href="#">Partners</a></li>
-														<li><a href="#">Updates</a></li>
+														<li><a href="template/profile.html">profile</a></li>
+														<li><a href="#works">works</a></li>
+														<li><a href="#studies">studies</a></li>
+														<li><a href="#contact">contact</a></li>
 												</ul>
 										</div>
 										<div class="mdl-mega-footer--drop-down-section">
