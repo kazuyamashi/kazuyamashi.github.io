@@ -248,3 +248,28 @@ html, body {
 .demo-card-wide > .mdl-card__menu {
   color: #fff;
 }
+
+/*********************************************************************************/
+/*       box_srcollbar                                                           */
+/*********************************************************************************/
+
+.box_srcollbar {
+    overflow:auto;
+    width:auto;
+    height:70px;
+    padding:15px;
+    /*border:1px solid #C0C0C0;*/
+    border:1px solid #FFFFFF;
+    background-color:#FFFFFF;
+    color:#000;
+    font-size:12px;
+}
+.box_title{
+    border:1px solid #C0C0C0;
+    padding:5px;
+    width:300px;
+    font-weight:bold;
+    font-size:14px;
+    background-color:#F3F3F3;
+    color:#C0C0C0;
+}
