@@ -241,7 +241,7 @@ html, body {
   width: 1024px;
 }
 .demo-card-wide > .mdl-card__title {
-  color: #4DD0E1;
+  color: #1de9b6;
   height: 176px;
   background: url('images/fpga_car.jpg') center / cover;
 }
