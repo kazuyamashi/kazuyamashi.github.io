@@ -21,5 +21,7 @@
 - **[ROSパッケージリリースの仕方](ros_packrelease.html)**
 	- 独自のROSパッケージを公式wikiへの公開方法
 
+[この解説ページをダウンロードする](ros_lecture.zip)
+
 ##連絡先
 kazushi_at_virgo.is.utsunomiya-u.ac.jp
