@@ -6,9 +6,11 @@ TEMPLATE = os.path.dirname(os.path.abspath(__file__)) + '/template/'
 def generate_index_html():
 
 	index = open("index.html","w")
+
 	profile = unicode(open(TEMPLATE+"profile.html","r").read(),encoding='utf-8')
 	works = unicode(open(TEMPLATE+"works.html","r").read(),encoding='utf-8')
 	studies = unicode(open(TEMPLATE+"studies.html","r").read(),encoding='utf-8')
+	blog = unicode(open(TEMPLATE+"blog.html","r").read(),encoding='utf-8')
 	contact = unicode(open(TEMPLATE+"contact.html","r").read(),encoding='utf-8')
 
 	env = Environment(loader=FileSystemLoader(TEMPLATE, encoding='utf_8'))
@@ -17,6 +19,7 @@ def generate_index_html():
 	html_string = tpl.render({'profile': profile,
 							'works': works,
 							'studies': studies,
+							'blog' : blog,
 							'contact': contact }).encode('utf-8')
 	index.write(html_string)
 
