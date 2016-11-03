@@ -46,10 +46,10 @@ catkin_create_pkg [package_name] [depend1] [depends2] ...
 
 ```
 cd src
-catkin_create_pkg image_tutorial roscpp rospy std_msgs sensor_msgs
+catkin_create_pkg ros_adder roscpp rospy std_msgs
 ```
 
-この場合、パッケージの名前はimage_tutorial、また依存関係を持たせるパッケージはroscpp、std_msgs，sensor_msgsということになります。
+この場合、パッケージの名前はros_adder、また依存関係を持たせるパッケージはroscpp、std_msgs，sensor_msgsということになります。
 ワークスペースでもう一度catkin_makeしましょう。
 
 ```
@@ -75,27 +75,27 @@ ROSでは処理に必要なデータは基本的にメッセージとして通�
 簡単なメッセージファイルを作ってみましょう。
 
 ```
-cd ~/ros_ws/src/image_tutorial
+cd ~/ros_ws/src/ros_adder
 mkdir msg; cd msg
-touch MyImage.msg
-emacs MyImage.msg
+touch Adder.msg
+emacs Adder.msg
 ```
 
-メッセージファイル***MyImage.msg***の中には以下の記述をしてください。
+メッセージファイル***Adder.msg***の中には以下の記述をしてください。
 このmsgファイルでは32bitのsigned int型の変数を1個，sensor_msgs/Image型の変数を1個保有していることになります。
 
-**MyImage.msg**
+**Adder.msg**
 
 ```
-int32 frameID
-sensor_msgs/Image img
+int32 arg_x
+int32 arg_y
 ```
 
 このメッセージファイルを元にメッセージ型を定義するヘッダファイルが生成されます。
 ヘッダファイル生成の設定を行うため以下のファイルを編集してください。
 
 ```
- cd ~/ros_ws/src/image_tutorial
+ cd ~/ros_ws/src/ros_adder
  emacs CMakeLists.txt
 ```
 
@@ -105,35 +105,33 @@ sensor_msgs/Image img
 #該当意部分がはコメント解除して適宜修正
 #7行目あたり
 find_package(catkin REQUIRED COMPONENTS
-  roscpp
-  rospy
-  std_msgs
-  sensor_msgs
+	roscpp
+	rospy
+	std_msgs
 + message_generation
 )
 
 #45行目あたり
 ## Generate messages in the 'msg' folder
 add_message_files(
-   FILES
+	 FILES
 - #   Message1.msg
 - #   Message2.msg
-+    MyImage.msg
++    Adder.msg
  )
 
 #66行目あたり
 generate_messages(
-   DEPENDENCIES
-   std_msgs
-   sensor_msgs
+	 DEPENDENCIES
+	 std_msgs
 )
 
 #104行目あたり
 catkin_package(
-　 INCLUDE_DIRS include
-　 LIBRARIES image_tutorial
-　 CATKIN_DEPENDS roscpp rospy sensor_msgs std_msgs
-　 DEPENDS system_lib
+#　 INCLUDE_DIRS include
+	LIBRARIES ros_adder
+	CATKIN_DEPENDS roscpp rospy std_msgs
+	DEPENDS system_lib
 )
 
 ```
@@ -147,126 +145,107 @@ catkin_make
 catkin_makeに成功すると以下のディレクトリにメッセージを定義したPythonコードが生成されます。
 
 ```
-ls ~/ros_ws/devel/lib/python2.7/dist-packages/image_tutorial/msg/
-_MyImage.py  __init__.py
+ls ~/ros_ws/devel/lib/python2.7/dist-packages/ros_adder/msg/
+_Adder.py  __init__.py
 ```
 ### ROSのノードを記述する
 ROSのノードをPythonで記述していきます。
 ```
-cd ~/ros_ws/src/image_tutorial/
+cd ~/ros_ws/src/ros_adder/
 mkdir scripts; cd scripts
-touch publisher.py subscriber.py
+touch para_in.py adder.py
 ```
-- publisher.py：処理に必要な データをPublishするPublisher
-- subscriber.py：publisherから受け取ったデータを表示するSubscriber
+- para_in.py：処理に必要なデータをPublishするPublisher
+- adder.py：publisherから受け取ったデータを表示するSubscriber
 
 ####Publisherを作る
 以下に示すコードがPublisherとなります。
 なお、コード中のAPIの説明などはコメントによって記しています。  
-**publisher.py**
+**para_in.py**
 
 ```python
-```
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+# license removed for brevity
 
-```cpp
-// ros/ros.h　ROSに関する基本的なAPIのためのヘッダ
-#include "ros/ros.h"
-// image_tutorial/image.h　image.msgから生成されたメッセージを定義しているヘッダ
-#include "image_tutorial/image.h"
+# pythonでROSのソフトウェアを記述するときにimportするモジュール
+import rospy
 
-#include <stdlib.h>
-#include <iostream>
-using namespace std;
+# 自分で定義したmessageファイルから生成されたモジュール
+from ros_adder.msg import Adder
 
-int main(int argc, char** argv)
-{
-  // 初期化宣言
-  // このノードは"publisher"という名前であるという意味
-  ros::init(argc, argv, "publisher");
-  // ノードハンドラの宣言
-  ros::NodeHandle n;
-  //　Publisherとしての定義
-  // n.advertise<image_tutorial::image>("image_data", 1000);
-  // image_tutorial::image型のメッセージをimage_dataというトピックへ配信する
-  //"1000"はトピックキューの最大値
-  ros::Publisher pub = n.advertise<image_tutorial::image>("image_data", 1000);
-  //1秒間に1回の間隔でループする
-  ros::Rate loop_rate(1);
+def para_in():
+	# 初期化宣言 : このソフトウェアは"para_in"という名前
+	rospy.init_node('para_in', anonymous=True)
 
-  //image_tutorial::image型のオブジェクトを定義
-  //image.msgで定義したflameID,imgはメンバ変数としてアクセスできる
-  image_tutorial::image msg;
+	# nodeの宣言 : publisherのインスタンスを作る
+	# input_dataというtopicにAdder型のmessageを送るPublisherをつくった
+	pub = rospy.Publisher('input_data', Adder, queue_size=100)
 
-  // 変数imgはsensor_msgs/Image型である
-  // この型はもともとメンバ変数を持った型なので以下のような使い方でアクセスできる
-  msg.img.height = 480;
-  msg.img.width  = 640;
-  msg.img.encoding = "rgb8"; 
-  msg.img.step =  msg.img.width;
+	# 1秒間にpublishする数の設定
+	r = rospy.Rate(5)
 
-  // sensor_msgs/Image型のデータ部にデータをプッシュバックしている
-  //　実際はOpenCVなどで画像のRGB情報を得たあと，データを格納する
-  for(int i = 0; i <  msg.img.height; i++){
-    for (int j = 0; j < msg.img.width; j++){
-      msg.img.data.push_back(0xFF);
-    }
-  }
+	para_x = 0
+	para_y = 2
 
-  int frameid = 0;
-  //ノードが実行中は基本的にros::ok() = 1
-  // Ctrl + Cなどのインタラプトが起こるとros::ok() = 0となる
-  while (ros::ok())
-  {
-    msg.frameID = frameid;
-    // Publishする関数
-    pub.publish(msg);
-    cout << "published !" << endl;
-    ros::spinOnce();
-    frameid++;
+	# Adder型のmessageのインスタンスを作る
+	msg = Adder()
 
-    loop_rate.sleep();
-  }
-  return 0;
-}
+	# ctl +　Cで終了しない限りwhileループでpublishし続ける
+
+	while not rospy.is_shutdown():
+
+		msg.arg_x = para_x
+		msg.arg_y = para_y
+
+		# publishする関数
+		pub.publish(msg)
+		print "published arg_x=%d arg_y=%d"%(msg.arg_x,msg.arg_y)
+		para_x += 1
+		para_y += 1
+
+		r.sleep()
+
+if __name__ == '__main__':
+	try:
+			para_in()
+
+	except rospy.ROSInterruptException: pass
 ```
 
 #### Subscriberをつくる
 以下に示すコードがSubscriberとなります。
 なお、コード中のAPIの説明などはコメントによって記し、Publisherと同じ部分のコメントは省いています。
 
-**subscriber.cpp**
+**adder.py**
 
-```cpp
-#include "ros/ros.h"
-#include <stdio.h>
-#include "image_tutorial/image.h"
-#include <iostream>
-using namespace std;
+```python
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+# license removed for brevity
+import rospy
+from ros_adder.msg import Adder
 
-// Subscribeする対象のトピックが更新されたら呼び出されるコールバック関数
-// 引数にはトピックにPublishされるメッセージの型と同じ型を定義する
-void chatterCallback(const image_tutorial::image msg)
-{
-  cout << "height = " << msg.img.height <<
-          " width = " << msg.img.width <<
-          " frameID = " << msg.frameID << endl;
-}
+# Subscribeする対象のトピックが更新されたら呼び出されるコールバック関数
+# 引数にはトピックにPublishされるメッセージの型と同じ型を定義する
+def callback(data):
+	# 受けとったmessageの中身を足し算して出力
+	print data.arg_x + data.arg_y
 
-int main(int argc, char **argv)
-{
+def adder():
+	rospy.init_node('adder', anonymous=True)
 
-  ros::init(argc, argv, "subscriber");
-  ros::NodeHandle n;
-  // Subscriberとしてimage_dataというトピックに対してSubscribeし、トピックが更新されたときは
-  // chatterCallbackという名前のコールバック関数を実行する
-  ros::Subscriber sub = n.subscribe("image_data", 1000, chatterCallback);
+	# Subscriberとしてimage_dataというトピックに対してSubscribeし、トピックが更新されたときは
+  # callbackという名前のコールバック関数を実行する
+	rospy.Subscriber('input_data', Adder, callback)
 
-  // トピック更新の待ちうけを行う関数
-  ros::spin();
+	# トピック更新の待ちうけを行う関数
+	rospy.spin()
 
-  return 0;
-}
+if __name__ == '__main__':
+	adder()
 ```
+
 
 2つのファイルの記述が終わったら、ビルドしましょう。
 
@@ -277,7 +256,7 @@ catkin_make
 
 ## ROSで作ったノードを実行してみる
 ビルドが成功したら、さっそく実行してみましょう。
-現在開いているコンソールｎほかにもう2つのコンソールを開き以下のコマンドを上からそれぞれ入力してください。
+現在開いているコンソールほかにもう2つのコンソールを開き以下のコマンドを上からそれぞれ入力してください。
 
 **1つ目のコンソール**  
 ROSでは***roscore***というコマンドを始めに起動することでさまざまなソフトウェアをスタートすることができます。
@@ -295,7 +274,7 @@ ROSにおいて単体のノード実行は基本的にrosrunで行います。
 ```
 cd ~/ros_ws
 source devel/setup.bash
-rosrun image_tutorial subscriber.py
+rosrun ros_adder adder.py
 ```
 
 **3つ目のコンソール**  
@@ -303,51 +282,37 @@ rosrun image_tutorial subscriber.py
 ```
 cd ~/ros_ws
 source devel/setup.bash
-rosrun image_tutorial publisher.py
+rosrun ros_adder para_in.py
 ```
 
 起動に成功したら以下のような結果が得られます。  
 実行を止めたいときは**Ctrl + C**で止まります。
 
 ```
-root@localhost:~/ros_ws# rosrun image_tutorial para_in
-published !
-published !
-published !
-published !
-published !
-published !
+root@localhost:~/ros_ws# rosrun ros_adder para_in.py
+published arg_x=0 arg_y=2
+published arg_x=1 arg_y=3
+published arg_x=2 arg_y=4
+published arg_x=3 arg_y=5
+published arg_x=4 arg_y=6
+published arg_x=5 arg_y=7
 
-root@localhost:~/ros_ws# rosrun image_tutorial adder
-height = 480 width = 640 flameID = 1
-height = 480 width = 640 flameID = 2
-height = 480 width = 640 flameID = 3
-height = 480 width = 640 flameID = 4
-height = 480 width = 640 flameID = 5
-height = 480 width = 640 flameID = 6
+root@localhost:~/ros_ws# rosrun ros_adder adder
+2
+4
+6
+8
+10
+12
+14
 ```
 
 ##コマンドまとめ
 - catkin_make
-    - ワークスペース内のパッケージを一括ビルドするコマンド
+		- ワークスペース内のパッケージを一括ビルドするコマンド
 - catkin_create_pkg
-    - ROSにおけるパッケージの雛形を作るコマンド
+		- ROSにおけるパッケージの雛形を作るコマンド
 - roscore
-    - ROSのネームサービス、マスタ
+		- ROSのネームサービス、マスタ
 - rosrun
-    - ROSの単体ノードを起動する際に使用するコマンド
-
-##課題
-以下の仕様のパッケージadder_tutorialを作りましょう。  
-パッケージ内に含まれるノードの数は2つとします。
-
-|  作るもの  |                                                      機能                                                      |   ファイル名    |
-|------------|----------------------------------------------------------------------------------------------------------------|-----------------|
-| Subscriber | input_dataというTopicに対してSubscribeする<br>入力値を2つ受け取り，足し算をして標準出力する<br>ノード名：adder | adder.py       |
-| Publisher  | input_dataというTopicに対してinput_value型のメッセージを1秒に1回Publishする<br>ノード名：para_in               | para_in.py     |
-| message    | int32型の変数を2つ持つ<br>input_valueと称す。                                                                  | input_value.msg |
-
-ヒント  
-
-- パッケージを作るときは`~/ros_ws/src`内で`catkin_create_pkg adder_tutorial roscpp rospy std_msgs`としましょう。
-- わからない点がある場合は積極的に質問してください。
+		- ROSの単体ノードを起動する際に使用するコマンド
