@@ -22,6 +22,7 @@ def generate_index_html():
 							'blog' : blog,
 							'contact': contact }).encode('utf-8')
 	index.write(html_string)
+	print "Generated index.html"
 
 if __name__ == '__main__':
 	generate_index_html()

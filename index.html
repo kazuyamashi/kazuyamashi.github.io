@@ -18,93 +18,97 @@
 <html lang="jp">
 
 <head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-		<title>Kazushi Yamashina</title>
-		<!-- Add to homescreen for Chrome on Android -->
-		<meta name="mobile-web-app-capable" content="yes">
-		<link rel="icon" sizes="192x192" href="images/myface.png">
-		<!-- Add to homescreen for Safari on iOS -->
-		<meta name="apple-mobile-web-app-capable" content="yes">
-		<meta name="apple-mobile-web-app-status-bar-style" content="black">
-		<meta name="apple-mobile-web-app-title" content="Material Design Lite">
-		<link rel="apple-touch-icon-precomposed" href="images/myface.pngpng">
-		<!-- Tile icon for Win8 (144x144 + tile color) -->
-		<meta name="msapplication-TileImage" content="images/myface.png.png">
-		<meta name="msapplication-TileColor" content="#3372DF">
-		<link rel="shortcut icon" href="images/myface.png.png">
-		<!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
-		<!--
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Kazushi Yamashina</title>
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="images/myface.png">
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <link rel="apple-touch-icon-precomposed" href="images/myface.pngpng">
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="images/myface.png.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+    <link rel="shortcut icon" href="images/myface.png.png">
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
 		<link rel="canonical" href="http://www.example.com/">
 		-->
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-		<!-- <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.deep_purple-pink.min.css"> -->
-		<link rel="stylesheet" href="theme/material.bluegrey_indigo.min.css">
-		<link rel="stylesheet" href="styles.css">
-		<style>
-		#view-source {
-				position: fixed;
-				display: block;
-				right: 0;
-				bottom: 0;
-				margin-right: 40px;
-				margin-bottom: 40px;
-				z-index: 900;
-		}
-		</style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.deep_purple-pink.min.css"> -->
+    <link rel="stylesheet" href="theme/material.bluegrey_indigo.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    #view-source {
+        position: fixed;
+        display: block;
+        right: 0;
+        bottom: 0;
+        margin-right: 40px;
+        margin-bottom: 40px;
+        z-index: 900;
+    }
+    </style>
 </head>
 
 <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
-		<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-				<header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
-						<div class="mdl-layout--large-screen-only mdl-layout__header-row">
-						</div>
-						<div class="mdl-layout--large-screen-only mdl-layout__header-row">
-								<h1><img src="images/myface.png" height="72"></img> Kazushi Yamashina</h1>
-						</div>
-						<div class="mdl-layout--large-screen-only mdl-layout__header-row">
-						</div>
-						<div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
-								<a href="#overview" class="mdl-layout__tab is-active">Overview</a>
-								<a href="#profile" class="mdl-layout__tab">Profile</a>
-								<a href="#works" class="mdl-layout__tab">Works</a>
-								<a href="#studies" class="mdl-layout__tab">Studies</a>
-								<!-- <a href="#blog" class="mdl-layout__tab">Blog</a> -->
-								<a href="#contact" class="mdl-layout__tab">Contact</a>
-								<div class="mdl-card__menu">
- 								<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored mdl-shadow--4dp mdl-color--accent" id="share">
-            					<i class="material-icons md-light" >share</i>
-            <!-- <span class="visuallyhidden">Add</span> -->
-          </button>
- 											<ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="share">
-											<li class="mdl-menu__item">
-													<a href="https://twitter.com/share" data-url="https://kazuyamashi.github.io/" data-via="KazushihsuzaK" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-											</li>
-											<li class="mdl-menu__item">
-												<div class="fb-share-button" data-href="https://kazuyamashi.github.io" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fkazuyamashi.github.io%2F&amp;src=sdkpreparse">Facebook</a></div>
-											</li>
-									</ul>
-								</div>
-						</div>
-				</header>
-				<main class="mdl-layout__content">
-						<div class="mdl-layout__tab-panel is-active" id="overview">
-								<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-										<div class="demo-card-wide mdl-card ">
-												<div class="mdl-card__title">
-														<h1 class="mdl-card__title-text">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
+            <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+            </div>
+            <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+                <h1><img src="images/myface.png" height="72"></img> Kazushi Yamashina</h1>
+            </div>
+            <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+            </div>
+            <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
+                <a href="#overview" class="mdl-layout__tab is-active">Overview</a>
+                <a href="#profile" class="mdl-layout__tab">Profile</a>
+                <a href="#works" class="mdl-layout__tab">Works</a>
+                <a href="#studies" class="mdl-layout__tab">Studies</a>
+                <a href="cv/cv_ja.pdf" class="mdl-layout__tab">CV</a>
+                <a href="#contact" class="mdl-layout__tab">Contact</a>
+                <div class="mdl-card__menu">
+                    <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored mdl-shadow--4dp mdl-color--accent" id="share">
+                        <i class="material-icons md-light">share</i>
+                        <!-- <span class="visuallyhidden">Add</span> -->
+                    </button>
+                    <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="share">
+                        <li class="mdl-menu__item">
+                            <a href="https://twitter.com/share" data-url="https://kazuyamashi.github.io/" data-via="KazushihsuzaK" data-show-count="false">Tweet</a>
+                            <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </li>
+                        <li class="mdl-menu__item">
+                            <div class="fb-share-button" data-href="https://kazuyamashi.github.io" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fkazuyamashi.github.io%2F&amp;src=sdkpreparse">Facebook</a></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main class="mdl-layout__content">
+            <div class="mdl-layout__tab-panel is-active" id="overview">
+                <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                    <div class="demo-card-wide mdl-card ">
+                        <div class="mdl-card__title">
+                            <h1 class="mdl-card__title-text">
 														Kazushi Yamashina<br>Welcome to my page!!
 												</div>
 												<div class="mdl-card__supporting-text">
-														大学生で修士2年の山科和史のHPです。HTMLの勉強もかねてHPをつくってみました。<br><br>
-														各種アカウントです。<br>
-														<img src="images/twitter.png" height="32"></img> : <a href="https://twitter.com/KazushihsuzaK">KazushihsuzaK</a><br>
-														<img src="images/facebook.png" height="32"></img> : <a href="https://www.facebook.com/kazushi.yamashina">Kazushi Yamashina</a><br>
-	 													<img src="images/github.png" height="32"></img> : <a href="https://github.com/kazuyamashi">kazuyamashi</a><br> 
-	 													<img src="images/linkedin.png" height="32"></img> : <a href="http://www.slideshare.net/kazuyamashi">kazuyamashi</a> 
+												大学生で修士2年の山科和史のHPです。HTMLの勉強もかねてHPをつくってみました。<br><br>
+												各種アカウントです。<br>
+												<img src="images/twitter.png" height="32"></img> : <a href="https://twitter.com/KazushihsuzaK">KazushihsuzaK</a><br>
+												<img src="images/facebook.png" height="32"></img> : <a href="https://www.facebook.com/kazushi.yamashina">Kazushi Yamashina</a><br>
+												<img src="images/github.png" height="32"></img> : <a href="https://github.com/kazuyamashi">kazuyamashi</a><br> 
+												<img src="images/linkedin.png" height="32"></img> : <a href="http://www.slideshare.net/kazuyamashi">kazuyamashi</a><br>
+												<br>
+												<a>CV : 日本語</a><br>
+												<a>CV : English</a>
 												</div>
 										</div>
 								</section>
@@ -112,24 +116,26 @@
 								<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
 										<div class="mdl-card mdl-cell mdl-cell--12-col">
 												<div class="mdl-card__supporting-text">
-														<h4>Update</h4>
-														<div class="box_srcollbar">
-															07/31　Worksの情報を更新しました。<br>
-															07/31　web pageをMaterial Designにしました。<br>
-															06/30　Worksに記事を1件追加しました。<br>
-															05/25　Studiesに記事を2件追加しました。<br>
-															05/08　Studiesに記事を1件追加しました。<br>
-															01/20　Worksの発表履歴を更新しました。<br>
-															01/12　Studiesに記事を1件追加しました。<br>
-															12/27　Worksに各発表の論文PDFを追加しました。<br>
-															12/25　blogを開設しました。<br>
-															12/16　Studiesに記事を2件追加しました。<br>
-															12/16　Tipsのページを更新しました。<br>
-															12/15　Worksを更新しました。<br>
-															12/15　デザインを変更しました。<br>
-															12/14　Profileを更新しました。<br>
-													    	12/13　ウェブページを公開しました。<br>
-														</div>
+												<h4>Update</h4>
+												<div class="box_srcollbar">
+													02/19 : Worksの情報を更新しました。<br>
+													02/19 : CVを追加しました<br>
+													07/31 : Worksの情報を更新しました。<br>
+													07/31 : web pageをMaterial Designにしました。<br>
+													06/30 : Worksに記事を1件追加しました。<br>
+													05/25 : Studiesに記事を2件追加しました。<br>
+													05/08 : Studiesに記事を1件追加しました。<br>
+													01/20 : Worksの発表履歴を更新しました。<br>
+													01/12 : Studiesに記事を1件追加しました。<br>
+													12/27 : Worksに各発表の論文PDFを追加しました。<br>
+													12/25 : blogを開設しました。<br>
+													12/16 : Studiesに記事を2件追加しました。<br>
+													12/16 : Tipsのページを更新しました。<br>
+													12/15 : Worksを更新しました。<br>
+													12/15 : デザインを変更しました。<br>
+													12/14 : Profileを更新しました。<br>
+											    	12/13 : ウェブページを公開しました。<br>
+												</div>
 												</div>
 										</div>
 								</section>
@@ -205,9 +211,9 @@
 			</p>
 			<p>
 				<h5> Personal history </h5>
-					2011　山形県立新庄北高校卒業<br>
-					2015　宇都宮大学卒業<br>
-					2015　宇都宮大学大学院入学<br>
+					<li>2017年3月 宇都宮大学大学院 工学研究科 情報システム科学専攻 博士前期課程 修了 （修士）</li>
+					<li>2015年3月 宇都宮大学 工学部 情報工学科 卒業 （学士）</li>
+					<li>2011年3月 山形県立新庄北高校 普通科 卒業 </li>
 			</p>
 			<p>
 				<h5> Hobby </h5>
@@ -219,21 +225,19 @@
 			</p>
 			<p>
 				<h5> Skill </h5>
-				<h6> Programming language and notation</h6>
+				<h6> Programming language and markup</h6>
+					 <li>Python
+					 <li>Verilog HDL
 					 <li>C
 					 <li>C++
-					 <li>Verilog HDL
 					 <li>Ruby
-					 <li>Python
 					 <li>HTML
 					 <li>Java
 					 <li>Markdown
 					 <li>LaTeX
-					</li>
 				<h6> Keywords </h6>
 					<li>FPGA(Filed Programmable Gate Array)
 					<li>HW/SW co-design
-					<li>Design compiler
 					<li>Robot
 					<li>ROS
 					<li>Component oriented design
@@ -284,133 +288,60 @@
 <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
 <div class="mdl-card mdl-cell mdl-cell--12-col">
 		<div class="mdl-card__supporting-text">
-		<h3>Activity</h3>
-			<li>2016 <a href="http://swest.toppers.jp/LED-Camp/">LED-Camp4</a> 実行委員</li>
+		<h3>Publication</h3>
+			<h5>国際発表（査読あり）</h5>
+			<ul>
+					<li>Takeshi Ohkawa, <strong>Kazushi Yamashina</strong>, Takuya Matsumoto, Kanemitsu Ootsu, Takashi Yokota, "Architecture Exploration of Robot System using ROS-Compliant FPGA Component," 27th IEEE International Symposium on Rapid System Prototyping (RSP), http://dx.doi.org/10.1145/2990299.2990312, 2016</li>
+					<li><strong>Kazushi Yamashina</strong>, Takeshi Ohkawa, Kanemitsu Ootsu, Takashi Yokota, “cReComp: Automated Design Tool for ROS-Compliant FPGA Component”, IEEE 10th International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC-16), http://ieeexplore.ieee.org/document/7774431, 2016</li>
+					<li><strong>Kazushi Yamashina</strong>, Takeshi Ohkawa, Kanemitsu Ootsu, Takashi Yokota, “Proposal of ROS-compliant FPGA Component for Low-Power Robotic Systems —-case study on image processing application—-,” Proceedings of 2nd International Workshop on FPGAs for Software Programmers (FSP 2015), pp.62-67, ePrint Proceedings: arXiv:1508.06320 (http://arXiv.org/abs/1508.06320/), 2015</li>
+			</ul>
+			<h5>国内発表</h5>
+			<ul>
+					<li><strong>山科 和史</strong>，大川 猛，大津 金光，横田 隆史，“ROSのPublish/Subscribe通信のハードウェア実装による高速化の検討”，情報処理学会第79回全国大会予稿集</li>
+					<li><strong>山科 和史</strong>，松本 拓也，大川 猛，大津 金光，横田 隆史，“FPGAを用いた処理のロボット向けコンポーネントと設計生産性評価”，信学技報 Vol.116，No.462，CNR2016-23，pp.23-28，2017</li>
+					<li>松本 拓也，<strong>山科 和史</strong>，大川 猛，大津金光，横田隆史，“ニューラルネットワークのROS準拠FPGAコンポーネント化の初期検討”，信学技報 Vol. 116，No.417，RECONF2016-70，pp.133-134，2017</li>
+					<li><strong>山科 和史</strong>，大川 猛，大津 金光，横田 隆史，“FPGA処理をソフトウェアコンポーネント化する設計ツールcReCompの高機能化の検討”，信学技報 Vol.116，No.210，RECONF2016-24，pp.1-6，2016</li>
+					<li><strong>山科 和史</strong>，大川 猛，大津 金光，横田 隆史，“自律移動ロボット向けソフト・ハード協調のためのコンポーネント設計支援ツール”，第34回日本ロボット学会学術講演会予稿集，2X1-08，2016</li>
+					<li><strong>山科 和史</strong>，木村 仁美，大川 猛，大津 金光，横田 隆史，“FPGA処理をROSコンポーネント化する自動設計環境”，第60回システム制御情報学会研究発表講演会予稿集，発表番号111-3，2016</li>
+					<li><strong>山科 和史</strong>，大川 猛，大津 金光，横田 隆史，“FPGAコンポーネントを用いた水中ロボット制御の高速化”，情報処理学会 第78回全国大会講演論文集，pp.xx～xx-xx，2016</li>
+					<li><strong>山科 和史</strong>，大川 猛，佐野 健太郎，長洲 航平，田中 大智， 大津 金光，横田 隆史，“ROS準拠FPGAコンポーネントを用いた遠隔制御ロボットカー”，信学技報 Vol.115，No.243，CPSY2015-54，pp.49，2015</li>
+					<li><strong>山科 和史</strong>，大川 猛，大津 金光，横田 隆史，“FPGAを使ってロボットをパワーアップ！”，組込みシステム技術に関するサマーワークショップ SWEST17，2015</li>
+					<li><strong>山科 和史</strong>，大川 猛，大津 金光、横田 隆史，“FPGA SoCを用いた画像処理ハードウェアのROS準拠コンポーネント化”，信学技報，Vol.115，No.109，RECONF2015-8，pp.41-46，2015</li>
+					<li><strong>山科 和史</strong>，大川 猛，大津 金光，横田 隆史，“ロボット応用のためのROS準拠FPGA画像処理コンポーネントの基礎設計”，情報処理学会 第77回全国大会講演論文集， pp.1-169～1-170，2015</li>
+			</ul>
+			<h5>学位論文</h5>
+			<ul>
+					<li>修士論文 ロボット向けFPGAコンポーネントの設計自動化に関する研究</li>
+					<li>卒業論文 効率的なロボット開発に向けたFPGAのコンポーネント化に関する研究</li>
+			</ul>
 		</div>
 	</div>
 </section>
+
 
 <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
 <div class="mdl-card mdl-cell mdl-cell--12-col">
 		<div class="mdl-card__supporting-text">
-			<h3>Publication</h3>
-				<h5 id="2016"><a name="2016" href="#2016"></a>2016</h5>
-				<p></p>
-				<h6 id="国外"><a name="国外" href="#国外"></a>国外</h6>
+			<h3>Activity</h3>
+				<h4>受賞等</h4>
 				<ul>
-					<p></p>
-					<li>Ohkawa, Kazushi Yamashina, Takuya Matsumoto, Kanemitsu Ootsu, Takashi Yokota,
-						<br>"Architecture Exploration of Robot System using ROS-Compliant FPGA Component,"
-						<br> 27th IEEE International Symposium on Rapid System Prototyping (RSP)
-					</li>
-					<br>
-					<li>Kazushi Yamashina, Takeshi Ohkawa, Kanemitsu Ootsu, Takashi Yokota,
-						<br>“cReComp: Automated Design Tool for ROS-Compliant FPGA Component”,
-						<br>IEEE 10th International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC-16) @ Lyon, France
-					</li>
+					<li>2016年5月25日 第60回システム制御情報学会研究発表講演会 学生SCI学生発表賞</li>
+					<li>2016年11月29日 リコンフィギャラブルシステム研究会 若手講演賞</li>
 				</ul>
-				<p></p>
-				<h6 id="国内"><a name="国内" href="#国内"></a>国内</h6>
+
+				<h4>研究助成金獲得の実績</h4>
 				<ul>
-					<p></p>
-					<li><b>（発表予定）</b>菅田 悠平，山科 和史，大川 猛，大津 金光，横田 隆史，
-						<br> “ROSのPublish/Subscribe通信のハードウェア実装による高速化の検討”，
-						<br>情報処理学会第79回全国大会
-						<br><a href="" title="">paper</a>
-					</li>
-					<li><b>（発表予定）</b>山科 和史，松本 拓也，大川 猛，大津 金光，横田 隆史，
-						<br>“ FPGAを用いた処理のロボット向けコンポーネントと設計生産性評価”，
-						<br>クラウドネットワークロボティクス研究会（CNR）
-						<br><a href="" title="">paper</a>
-					</li>
-					<li><b>（発表予定）</b>松本 拓也，山科 和史，大川 猛，大津 金光，横田 隆史，
-						<br> “ニューラルネットワークのROS準拠FPGAコンポーネント化の初期検討”，
-						<br>リコンフィギャラブルシステム研究会（RECONF）
-						<br><a href="" title="">paper</a>
-					</li>
-					<li><b><font color="red">若手講演賞受賞　</font></b>山科 和史，大川 猛，大津 金光，横田 隆史，
-						<br>“FPGA処理をソフトウェアコンポーネント化する設計ツールcReCompの高機能化の検討”，
-						<br> "Functional improvement of cReComp Design tool for software-component generation of FPGA processing"，
-						<br>リコンフィギャラブルシステム研究会（RECONF）@富山
-						<br><a href="doc/reconf_2016_09.pdf" title="">paper</a>
-					</li>
-					<br>
-					<li>山科 和史，大川 猛，大津 金光，横田 隆史， 
-						<br>“自律移動ロボット向けソフト・ハード協調のためのコンポーネント設計支援ツール”，
-						<br>第34回日本ロボット学会学術講演会 (RSJ2016)＠山形
-						<br>
-					</li>
-					<br>
-					<li><b><font color="red">SCI学生発表賞受賞</font></b>　山科 和史，木村 仁美，大川 猛，大津 金光，横田 隆史， 
-						<br>“FPGA処理をROSコンポーネント化する自動設計環境”，
-						<br> "Automatic Design Environment for Componentization of an FPGA Processing in ROS,"
-						<br>第60回システム制御情報学会研究発表講演会 (SCI’16)＠京都
-						<br><a href="doc/sci16.pdf" title="">paper</a>
-					</li>
-					<br>
-					<li>木村 仁美，山科 和史，大川 猛，大津 金光，横田 隆史，
-						<br>“FPGAコンポーネントを用いた水中ロボット制御の高速化”，
-						<br> Speed-up of a underwater robot control with FPGA component,
-						<br>情報処理学会 第77回全国大会 2015年3月10日(木)～12(土)
-						<br>於：慶應義塾大学 矢上キャンパス</li>
+					<li>2015年 宇都宮大学イノベーション創成部門ヤングイノベーションスカラシップ研究グラント採択</li>
 				</ul>
-				<h5 id="2015"><a name="2015" href="#2015"></a>2015</h5>
-				<p></p>
-				<h6 id="海外"><a name="海外" href="#海外"></a>海外</h6>
+				<h4>その他の活動</h4>
 				<ul>
-					<p></p>
-					<li>Kazushi Yamashina, Takeshi Ohkawa, Kanemitsu Ootsu, Takashi Yokota,
-						<br>“Proposal of ROS-compliant FPGA Component for Low-Power Robotic Systems —-case study on image processing application—-,”
-						<br>Proceedings of 2nd International Workshop on FPGAs for Software Programmers (FSP 2015), pp.62-67, 2015.09.01.
-						<br>ePrint Proceedings: arXiv:1508.06320 (<a href="http://arXiv.org/abs/1508.06320/">http://arXiv.org/abs/1508.06320/</a>)
-						<br><a href="doc/cameraready_fsp2015_final.pdf" title="">paper</a>&nbsp;&nbsp;<a href="doc/poster_fsp.pdf" title="">poster</a>
-					</li>
-				</ul>
-				<h6 id="国内"><a name="国内" href="#国内"></a>国内</h6>
-				<ul>
-					<li>
-						<p>電子情報通信学会　コンピュータシステム研究会（CPSY）
-							<br>日時：　2015年10月8日(木)
-							<br>場所：　幕張メッセ国際会議場
-							<br>山科 和史，大川 猛，佐野 健太郎，長洲 航平，田中 大智， 大津 金光，横田 隆史，
-							<br>“ROS準拠FPGAコンポーネントを用いた遠隔制御ロボットカー”, 2015年10月8日．
-							<br><a href="doc/ceatec_cameraredy.pdf" title="">paper</a>&nbsp;&nbsp;<a href="doc/poster_ceatec_pre.pdf" title="">poster</a></p>
-					</li>
-					<li>
-						<p>「組込みシステム技術に関するサマーワークショップ」SWEST17
-							<br>(Summer Workshop on Embedded System Technologies (SWEST))
-							<br>山科 和史，大川 猛，大津 金光，横田 隆史， “FPGAを使ってロボットをパワーアップ！”，
-							<br>組込みシステム技術に関するサマーワークショップ SWEST17
-							<br><a href="doc/poster_swest.pdf" title="">poster</a></p>
-					</li>
-					<li>
-						<p>リコンフィギャラブルシステム研究会（RECONF）≪RECONF 10周年記念研究会≫
-							<br>2015年6月19日(金)-20日(土)
-							<br>於：京都大学吉田キャンパス百周年時計台記念館
-							<br>山科 和史，大川 猛，大津 金光、横田 隆史，“FPGA SoCを用いた画像処理ハードウェアのROS準拠コンポーネント化”，
-							<br>信学技報，Vol.115, No.109, pp.41-46 (RECONF2015-8), 2015年6月. （発表日：2015.06.19）
-							<br><a href="doc/reconf_2015_6.pdf" title="">paper</a></p>
-					</li>
-				</ul>
-				<h5 id="2014"><a name="2014" href="#2014"></a>2014</h5>
-					<h6 id="国内"><a name="国内" href="#国内"></a>国内</h6>
-					<ul>
-					<li>
-						<p>
-							情報処理学会 第77回全国大会
-						<br>2015年3月17日(火)～19(木)　於：京都大学 吉田キャンパス
-						<br>山科 和史，大川 猛，大津 金光，横田 隆史，
-						<br>“ロボット応用のためのROS準拠FPGA画像処理コンポーネントの基礎設計”，
-						<br>情報処理学会 第77回全国大会講演論文集， pp.1-169～1-170, 2015年3月18日．</p>
-					</li>
-				</ul>
+					<li>2016年11月14日-2016年12月31日 宇都宮大学，FPGAコンポーネントの研究に関する技術補佐員</li>
+					<li>2016年 LED-Camp4実行委員</li>
+					<li>2016年5月24日 ロボットシステムの設計技術に関する技術講習会 講師</li>
+				</ul>			
 		</div>
-	</div>
+</div>
 </section>
-
-
-
-
 									</div>
 								</section>
 						</div>
@@ -432,7 +363,6 @@
 				<h6><a href="Studies/Xillinux_tutorial.html">Xillinuxの導入の仕方</a></h6>
 			<h5>ROS関連</h5>
 				<h6><a href="ros_lecture/index.html">ROSの基礎的知識まとめ</a></h6>
-				<h6><a href="Studies/ros_tutorial.html">ROSにおける基本的な開発をする</a></h6>
 			<h5>Deep Learnig</h5>
 				<h6><a href="https://github.com/kazuyamashi/deep-learning">Deep Learningの実装</a></h6>
 		</div>
@@ -442,23 +372,15 @@
 									</div>
 								</section>
 						</div>
-						<!--
-						<div class="mdl-layout__tab-panel" id="blog">
+						
+						<div class="mdl-layout__tab-panel" id="cv">
 								<section class="section--center mdl-grid mdl-grid--no-spacing">
 									<div class="mdl-cell mdl-cell--12-col">
-											<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-	<div class="mdl-card mdl-cell mdl-cell--12-col">
-		<div class="mdl-card__supporting-text">
-			<h3>Blog</h3>
-			<h5></h5>
-				building...
-		</div>
-	</div>
-</section>
+											CV
 									</div>
 								</section>
 						</div>
-						-->
+						
 						<div class="mdl-layout__tab-panel" id="contact">
 								<section class="section--center mdl-grid mdl-grid--no-spacing">
 										<div class="mdl-cell mdl-cell--12-col">
@@ -492,57 +414,59 @@
 										<div class="mdl-mega-footer--drop-down-section">
 												<input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
 												<!-- <h1 class="mdl-mega-footer--heading">Features</h1>
-												<ul class="mdl-mega-footer--link-list">
-														<li><a href="template/profile.html">profile</a></li>
-														<li><a href="#works">works</a></li>
-														<li><a href="#studies">studies</a></li>
-														<li><a href="#contact">contact</a></li>
-												</ul>
- -->										</div>
-										<div class="mdl-mega-footer--drop-down-section">
-												<input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
-												<!-- <h1 class="mdl-mega-footer--heading">Details</h1>
+                            <ul class="mdl-mega-footer--link-list">
+                                <li><a href="template/profile.html">profile</a></li>
+                                <li><a href="#works">works</a></li>
+                                <li><a href="#studies">studies</a></li>
+                                <li><a href="#contact">contact</a></li>
+                            </ul>
+                            --> </div>
+                        <div class="mdl-mega-footer--drop-down-section">
+                            <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+                            <!-- <h1 class="mdl-mega-footer--heading">Details</h1>
 												<ul class="mdl-mega-footer--link-list">
 														<li><a href="#">Spec</a></li>
 														<li><a href="#">Tools</a></li>
 														<li><a href="#">Resources</a></li>
 												</ul>
- -->										</div>
-										<div class="mdl-mega-footer--drop-down-section">
-												<input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
-												<!-- <h1 class="mdl-mega-footer--heading">Technology</h1> -->
-												<!-- <ul class="mdl-mega-footer--link-list">
+ --></div>
+                        <div class="mdl-mega-footer--drop-down-section">
+                            <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+                            <!-- <h1 class="mdl-mega-footer--heading">Technology</h1> -->
+                            <!-- <ul class="mdl-mega-footer--link-list">
 														<li><a href="#">How it works</a></li>
 														<li><a href="#">Patterns</a></li>
 														<li><a href="#">Usage</a></li>
 														<li><a href="#">Products</a></li>
 														<li><a href="#">Contracts</a></li>
 												</ul>
- -->										</div>
-										<div class="mdl-mega-footer--drop-down-section">
-												<input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
-												<!-- <h1 class="mdl-mega-footer--heading">FAQ</h1>
+ -->
+                        </div>
+                        <div class="mdl-mega-footer--drop-down-section">
+                            <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+                            <!-- <h1 class="mdl-mega-footer--heading">FAQ</h1>
 												<ul class="mdl-mega-footer--link-list">
 														<li><a href="#">Questions</a></li>
 														<li><a href="#">Answers</a></li>
 														<li><a href="#">Contact us</a></li>
 												</ul> -->
-										</div>
-								</div>
-								<div class="mdl-mega-footer--bottom-section">
-										<div class="mdl-logo">
-												Copyright, Kazushi Yamashina, 2016
-										</div>
-										<ul class="mdl-mega-footer--link-list">
-												<!-- <li><a href="https://developers.google.com/web/starter-kit/">Web Starter Kit</a></li>
+                        </div>
+                    </div>
+                    <div class="mdl-mega-footer--bottom-section">
+                        <div class="mdl-logo">
+                            Copyright, Kazushi Yamashina, 2016
+                        </div>
+                        <ul class="mdl-mega-footer--link-list">
+                            <!-- <li><a href="https://developers.google.com/web/starter-kit/">Web Starter Kit</a></li>
 												<li><a href="#">Help</a></li>
 												<li><a href="#">Privacy and Terms</a></li>
- -->										</ul>
-								</div>
-						</footer>
-				</main>
-		</div>
-		<script src="material.min.js"></script>
+ -->
+                        </ul>
+                    </div>
+                    </footer>
+        </main>
+        </div>
+        <script src="material.min.js"></script>
 </body>
 
 </html>
