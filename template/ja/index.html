@@ -191,155 +191,14 @@
 						<div class="mdl-layout__tab-panel" id="profile">
 								<section class="section--center mdl-grid mdl-grid--no-spacing">
 									<div class="mdl-cell mdl-cell--12-col">
-											<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-<div class="mdl-card mdl-cell mdl-cell--12-col">
-		<div class="mdl-card__supporting-text">
-			<h3>Profile</h3>
-			<p>
-				<h5> Name </h5>山科和史<br>Kazushi Yamashina
-			</p>
-			<p>
-				<h5> Affiliation </h5> 宇都宮大学大学院 工学研究科
-			</p>
-			<p>
-				<h5> Hometown </h5> 山形県新庄市
-			</p>
-			<p>
-				<h5> Birthday </h5> 1992/11/08
-			</p>
-			<p>
-				<h5> Personal history </h5>
-					<li>2017年3月 宇都宮大学大学院 工学研究科 情報システム科学専攻 博士前期課程 修了 （修士）</li>
-					<li>2015年3月 宇都宮大学 工学部 情報工学科 卒業 （学士）</li>
-					<li>2011年3月 山形県立新庄北高校 普通科 卒業 </li>
-			</p>
-			<p>
-				<h5> Hobby </h5>
-				アルペンスキー
-			</p>
-			<p>
-				<h5> Favorite </h5>
-				お寿司、魚、餃子、ビール、ラーメン、コブクロ
-			</p>
-			<p>
-				<h5> Skill </h5>
-				<h6> Programming language and markup</h6>
-					 <li>Python
-					 <li>Verilog HDL
-					 <li>C
-					 <li>C++
-					 <li>Ruby
-					 <li>HTML
-					 <li>Java
-					 <li>Markdown
-					 <li>LaTeX
-				<h6> Keywords </h6>
-					<li>FPGA(Filed Programmable Gate Array)
-					<li>HW/SW co-design
-					<li>Robot
-					<li>ROS
-					<li>Component oriented design
-					<li>Embedded Linux
-					</li>
-				<h6> OS </h6>
-					<li>Windows
-					<li>Ubuntu
-					<li>CentOS
-					<li>OS X
-					</li>
-			</p>
-		</div>
-</div>
-<!-- <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="btn3">
-		<i class="material-icons">more_vert</i>
-</button>
-<ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn3">
-		<li class="mdl-menu__item">Lorem</li>
-		<li class="mdl-menu__item" disabled>Ipsum</li>
-		<li class="mdl-menu__item">Dolor</li>
-</ul> -->
-</section>
+											{{profile}}
 									</div>
 								</section>
 						</div>
 						<div class="mdl-layout__tab-panel" id="works">
 								<section class="section--center mdl-grid mdl-grid--no-spacing">
 									<div class="mdl-cell mdl-cell--12-col">
-										<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-<div class="mdl-card mdl-cell mdl-cell--12-col">
-		<div class="mdl-card__supporting-text">
-			<h3>Project</h3>
-			<h5><a href="https://github.com/kazuyamashi/cocore.git">COCORE</a></h5>
-			<p>Programmable SoC向けLinuxディストリビューション. Ubuntu14.04の上でXillybusのIPとROSが動作します.</p>
-			<h5><a href="https://github.com/kazuyamashi/cReComp.git">cReComp</a></h5>
-			<p>creator for Reconfigurable Component. FPGAコンポーネント向けの自動コードジェネレータ</p>
-		<h5><a href="crecomp_doc/getting_started_jp.html">cReCompのGetting Started</a></h5>
-			<p>cReCompを使用して開発するためのチュートリアル</p>
-		<h5><a href="https://github.com/Kumikomi">Kumikomi班</a></h5>
-			<p>ROS向けのFPGA対応パッケージを開発しています。</p>
-		<h5>OpenReroc</h5>
-			<p>Open source Reconfigurable robot components</p>
-		</div>
-</div>
-</section>
-
-<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-<div class="mdl-card mdl-cell mdl-cell--12-col">
-		<div class="mdl-card__supporting-text">
-		<h3>Publication</h3>
-			<h5>国際発表（査読あり）</h5>
-			<ul>
-					<li>Takeshi Ohkawa, <strong>Kazushi Yamashina</strong>, Takuya Matsumoto, Kanemitsu Ootsu, Takashi Yokota, "Architecture Exploration of Robot System using ROS-Compliant FPGA Component," 27th IEEE International Symposium on Rapid System Prototyping (RSP), http://dx.doi.org/10.1145/2990299.2990312, 2016</li>
-					<li><strong>Kazushi Yamashina</strong>, Takeshi Ohkawa, Kanemitsu Ootsu, Takashi Yokota, “cReComp: Automated Design Tool for ROS-Compliant FPGA Component”, IEEE 10th International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC-16), http://ieeexplore.ieee.org/document/7774431, 2016</li>
-					<li><strong>Kazushi Yamashina</strong>, Takeshi Ohkawa, Kanemitsu Ootsu, Takashi Yokota, “Proposal of ROS-compliant FPGA Component for Low-Power Robotic Systems —-case study on image processing application—-,” Proceedings of 2nd International Workshop on FPGAs for Software Programmers (FSP 2015), pp.62-67, ePrint Proceedings: arXiv:1508.06320 (http://arXiv.org/abs/1508.06320/), 2015</li>
-			</ul>
-			<h5>国内発表</h5>
-			<ul>
-					<li><strong>山科 和史</strong>，大川 猛，大津 金光，横田 隆史，“ROSのPublish/Subscribe通信のハードウェア実装による高速化の検討”，情報処理学会第79回全国大会予稿集</li>
-					<li><strong>山科 和史</strong>，松本 拓也，大川 猛，大津 金光，横田 隆史，“FPGAを用いた処理のロボット向けコンポーネントと設計生産性評価”，信学技報 Vol.116，No.462，CNR2016-23，pp.23-28，2017</li>
-					<li>松本 拓也，<strong>山科 和史</strong>，大川 猛，大津金光，横田隆史，“ニューラルネットワークのROS準拠FPGAコンポーネント化の初期検討”，信学技報 Vol. 116，No.417，RECONF2016-70，pp.133-134，2017</li>
-					<li><strong>山科 和史</strong>，大川 猛，大津 金光，横田 隆史，“FPGA処理をソフトウェアコンポーネント化する設計ツールcReCompの高機能化の検討”，信学技報 Vol.116，No.210，RECONF2016-24，pp.1-6，2016</li>
-					<li><strong>山科 和史</strong>，大川 猛，大津 金光，横田 隆史，“自律移動ロボット向けソフト・ハード協調のためのコンポーネント設計支援ツール”，第34回日本ロボット学会学術講演会予稿集，2X1-08，2016</li>
-					<li><strong>山科 和史</strong>，木村 仁美，大川 猛，大津 金光，横田 隆史，“FPGA処理をROSコンポーネント化する自動設計環境”，第60回システム制御情報学会研究発表講演会予稿集，発表番号111-3，2016</li>
-					<li><strong>山科 和史</strong>，大川 猛，大津 金光，横田 隆史，“FPGAコンポーネントを用いた水中ロボット制御の高速化”，情報処理学会 第78回全国大会講演論文集，pp.xx～xx-xx，2016</li>
-					<li><strong>山科 和史</strong>，大川 猛，佐野 健太郎，長洲 航平，田中 大智， 大津 金光，横田 隆史，“ROS準拠FPGAコンポーネントを用いた遠隔制御ロボットカー”，信学技報 Vol.115，No.243，CPSY2015-54，pp.49，2015</li>
-					<li><strong>山科 和史</strong>，大川 猛，大津 金光，横田 隆史，“FPGAを使ってロボットをパワーアップ！”，組込みシステム技術に関するサマーワークショップ SWEST17，2015</li>
-					<li><strong>山科 和史</strong>，大川 猛，大津 金光、横田 隆史，“FPGA SoCを用いた画像処理ハードウェアのROS準拠コンポーネント化”，信学技報，Vol.115，No.109，RECONF2015-8，pp.41-46，2015</li>
-					<li><strong>山科 和史</strong>，大川 猛，大津 金光，横田 隆史，“ロボット応用のためのROS準拠FPGA画像処理コンポーネントの基礎設計”，情報処理学会 第77回全国大会講演論文集， pp.1-169～1-170，2015</li>
-			</ul>
-			<h5>学位論文</h5>
-			<ul>
-					<li>修士論文 ロボット向けFPGAコンポーネントの設計自動化に関する研究</li>
-					<li>卒業論文 効率的なロボット開発に向けたFPGAのコンポーネント化に関する研究</li>
-			</ul>
-		</div>
-	</div>
-</section>
-
-
-<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-<div class="mdl-card mdl-cell mdl-cell--12-col">
-		<div class="mdl-card__supporting-text">
-			<h3>Activity</h3>
-				<h4>受賞等</h4>
-				<ul>
-					<li>2016年5月25日 第60回システム制御情報学会研究発表講演会 学生SCI学生発表賞</li>
-					<li>2016年11月29日 リコンフィギャラブルシステム研究会 若手講演賞</li>
-				</ul>
-
-				<h4>研究助成金獲得の実績</h4>
-				<ul>
-					<li>2015年 宇都宮大学イノベーション創成部門ヤングイノベーションスカラシップ研究グラント採択</li>
-				</ul>
-				<h4>その他の活動</h4>
-				<ul>
-					<li>2016年11月14日-2016年12月31日 宇都宮大学，FPGAコンポーネントの研究に関する技術補佐員</li>
-					<li>2016年 LED-Camp4実行委員</li>
-					<li>2016年5月24日 ロボットシステムの設計技術に関する技術講習会 講師</li>
-				</ul>			
-		</div>
-</div>
-</section>
+										{{works}}
 									</div>
 								</section>
 						</div>
@@ -347,26 +206,7 @@
 						<div class="mdl-layout__tab-panel" id="studies">
 								<section class="section--center mdl-grid mdl-grid--no-spacing">
 									<div class="mdl-cell mdl-cell--12-col">
-										<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-	<div class="mdl-card mdl-cell mdl-cell--12-col">
-		<div class="mdl-card__supporting-text">
-			<h3>Studies</h3>
-			<h5>FPGAボード向けLinux OSの作り方</h5>
-				<h6><a href="https://github.com/kazuyamashi/cocore/blob/master/zybo/build_instruction/xillybus_and_ros_on_ubuntu_on_zybo.md">Xillybus and ROS on Ubuntu on Zybo</a></h6>
-				<h6><a href="https://github.com/kazuyamashi/cocore/blob/master/zedboard/build_instruction/xillybus_and_ros_on_ubuntu_on_zedboard.md">Xillybus and ROS on Ubuntu on Zedboard</a></h6>
-			<h5>FPGA×ROS</h5>
-				<h6><a href="crecomp_ws/index.html">cReCompのチュートリアル</a></h6>
-				<h6><a href="Studies/openreroc_pwm_intro.html">OpenReroc openreroc_pwmの紹介</a></h6>
-			<h5>FPGA関連</h5>
-				<h6><a href="Studies/Xillinux_tutorial.html">Xillinuxの導入の仕方</a></h6>
-			<h5>ROS関連</h5>
-				<h6><a href="ros_lecture/index.html">ROSの基礎的知識まとめ</a></h6>
-			<h5>Deep Learnig</h5>
-				<h6><a href="https://github.com/kazuyamashi/deep-learning">Deep Learningの実装</a></h6>
-		</div>
-	</div>
-</section>
-
+										{{studies}}
 									</div>
 								</section>
 						</div>
@@ -382,27 +222,7 @@
 						<div class="mdl-layout__tab-panel" id="contact">
 								<section class="section--center mdl-grid mdl-grid--no-spacing">
 										<div class="mdl-cell mdl-cell--12-col">
-											<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-<div class="mdl-card mdl-cell mdl-cell--12-col">
-		<div class="mdl-card__supporting-text">
-			<h3>Mail</h3><br>
-				<img src="images/gmail.png" height="32"></img> : kazuyamashi_at_gmail.com<br>
-				*_at_を@に変えてください。
-		</div>
-	</div>
-</section>
-<section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-<div class="mdl-card mdl-cell mdl-cell--12-col">
-		<div class="mdl-card__supporting-text">
-			<h3>My account</h3><br>
-			<img src="images/twitter.png" height="32"></img> : <a href="https://twitter.com/KazushihsuzaK">KazushihsuzaK</a><br>
-			<img src="images/facebook.png" height="32"></img> : <a href="https://www.facebook.com/kazushi.yamashina">Kazushi Yamashina</a><br>
-	 		<img src="images/github.png" height="32"></img> : <a href="https://github.com/kazuyamashi">kazuyamashi</a><br>
-	 		<img src="images/linkedin.png" height="32"></img> : <a href="http://www.slideshare.net/kazuyamashi">kazuyamashi</a>
-		</div>
-	</div>
-</section>
-
+											{{contact}}
 										</div>
 								</section>
 						</div>
