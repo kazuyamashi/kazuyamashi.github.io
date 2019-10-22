@@ -1,4 +1,4 @@
-#ROS launchファイルの使い方
+# ROS launchファイルの使い方
 このセクションではプロジェクトが大きくなり，rosrunによるノードの単体起動が困難になってきた際に用いるlaunchファイルにについて学びます。
 
 ROSのlaunchファイルの特徴
@@ -34,7 +34,7 @@ ROSのlaunchファイルの特徴
 </launch>
 ```
 
-###launchタグ
+### launchタグ
 `<launch></launch>`というタグで一斉起動するノード群の定義を行います。
 ```xml
 <launch>
@@ -42,7 +42,7 @@ ROSのlaunchファイルの特徴
 </launch>
 ```
 
-###nodeタグ
+### nodeタグ
 
 各ノードの定義は以下のような書式で行います。
 
@@ -55,7 +55,7 @@ ROSのlaunchファイルの特徴
 - node_name : ROSに登録するノード名
 - node_type : ノードの実行ファイル名
 
-###Topicのリネーム
+### Topicのリネーム
 ノードのトピックのリネームをします。
 
 ```xml
@@ -67,7 +67,7 @@ ROSのlaunchファイルの特徴
 - original_name  ： 変更前の名前
 - new_name       ： 変更後の名前
 
-###groupタグ
+### groupタグ
 ノードを起動する名前空間の指定をします。この設定を行うことによって，同じノード名でも名前空間が違うため1つのroscore上に存在できます。
 
 ```xml
@@ -78,7 +78,7 @@ ROSのlaunchファイルの特徴
 
 - name_space : 名前空間の定義名
 
-###launchファイルの実行
+### launchファイルの実行
 
 先に示したlaunchファイルを実行してみましょう。  
 まず、以下のコマンドでパッケージ内にlaunchファイルを入れるためのディレクトリを作成し，ファイルを作成しましょう。
@@ -138,11 +138,11 @@ process[output_node-5]: started with pid [13292]
 process[input_node-6]: started with pid [13308]
 ```
 
-##課題
+## 課題
 
 - rostopicやrosnodeで実際にノードやTopicなどがリネームされているか確認しましょう。
 
-##参考
+## 参考
 [複数のノードを同時に実行 (ROS Launch)](http://robotics.naist.jp/edu/text/?Robotics%2FROS%2FLunchMultiNodes)  
 [ja/roslaunch/XML - ROS Wiki](http://wiki.ros.org/ja/roslaunch/XML)  
 [大きなプロジェクトにおける roslaunch の tips](http://wiki.ros.org/ja/roslaunch/Tutorials/Roslaunch%20tips%20for%20larger%20projects)

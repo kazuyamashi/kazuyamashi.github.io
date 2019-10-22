@@ -1,4 +1,4 @@
-#Gazeboシミュレータの紹介
+# Gazeboシミュレータの紹介
 このセクションはROSのロボットソフトウェア開発において一般的に用いられる**Gazeboシミュレータ**について紹介します。  
 GazeboシミュレータはROSによって動作するロボットのための3Dモデルのバーチャルシミュレータです。Gazeboではシミュレーションできるロボットがすでにたくさんあります。Gazeboシミュレータの使用方法は大きく分けて2つ在ります。
 
@@ -7,7 +7,7 @@ GazeboシミュレータはROSによって動作するロボットのための3D
 
 ここでは1においてturtlebotのシミュレーション環境の導入とシミュレータ起動の仕方を紹介します。
 
-###導入方法
+### 導入方法
 以下のコマンドでシミュレーション環境を導入します。
 
 ```
@@ -16,7 +16,7 @@ sudo apt-get install ros-indigo-turtlebot-teleop
 sudo apt-get install ros-indigo-turtlebot-rviz-launchers
 ```
 
-###シミュレータの起動方法
+### シミュレータの起動方法
 
 ```
 source /opt/ros/indigo/setup.bash
@@ -57,7 +57,7 @@ turtlebotの操作の仕方は，以下のとおりです。キーボードで�
    m：左後旋回  ,：後退      .：右後旋回  
 ```
 
-###ロボットから得られる情報の可視化
+### ロボットから得られる情報の可視化
 
 シミュレータ起動中はロボットの仮想センサから得られる情報を視覚的に出力することができます。  
 新しいターミナルを開いて以下のコマンドを使用します。
@@ -75,7 +75,7 @@ roslaunch turtlebot_rviz_launchers view_robot.launch
 
 <img src="pic/rviz_add.png" width=500>
 
-###シミュレーション条件の変更
+### シミュレーション条件の変更
 
 Gazeboシミュレータにおけるシミュレーション条件(障害物や仮想世界の環境)の変更は**worldファイル**の変更で行うことができます。シミュレーション条件の対象変更は環境変数を帰ることによって行えます。  
 一度起動したシミュレータを全て停止させ，以下のコマンドを使用します。  
@@ -98,6 +98,6 @@ roslaunch turtlebot_gazebo turtlebot_world.launch
 <img src="pic/gazebo_co.png" width=500>
 
 
-##参考
+## 参考
 [Gazebo世界を探索してみる](http://wiki.ros.org/ja/turtlebot_simulator/Tutorials/hydro/Explore%20the%20Gazebo%20world)  
 [第1回ROS勉強会発表資料 ROS+Gazeboではじめるロボットシミュレーション](http://www.slideshare.net/akio19937/1rosrosgazebo)

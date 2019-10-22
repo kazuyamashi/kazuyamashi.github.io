@@ -1,8 +1,8 @@
-#ROSにおけるノード間通信の分析に<br>使うコマンド紹介とその実用例
+# ROSにおけるノード間通信の分析に<br>使うコマンド紹介とその実用例
 このセクションではROSにおいて各パッケージの動作状況の分析やデバッグをするのに  
 便利なコマンドの紹介と実用例を紹介します。  
 
-###rosgraph
+### rosgraph
 **rosgraph**は現在動作しているノードの情報を一挙に表示するためのコマンドです。  
 実行すると以下のような出力がされます。  
 以下の例では動作しているノードが**subscriber**，**rosout**，**publisher**の3つです。  
@@ -39,7 +39,7 @@ Nodes:
 <img src="pic/rosgraph.png">
 
 
-###rostopic
+### rostopic
 
 **rostopic**は現在動作中の全てのTopicについてさまざまなことを調べることができます。  
 任意のノード同士がどのように通信をしているか調べるときに非常に有効なコマンドです。  
@@ -90,7 +90,7 @@ average: 324.38KB/s
 ```
 
 
-###rosnode
+### rosnode
 **rostopic**は現在動作中の全てのノードについてさまざまなことを調べることができます。  
 ノードの単体デバッグやノード情報の取得などに便利です。
 
@@ -150,7 +150,7 @@ xmlrpc reply from http://degin:57164/   time=0.894070ms
 xmlrpc reply from http://degin:57164/   time=0.882864ms
 ```
 
-###rospack
+### rospack
 
 **rospack**は自分の作成したパッケージはもちろん，他の開発者が作成したパッケージについてのさまざまな情報を取得できます。  
 オプションは大変多くあるので，今回はよく使用するオプションを紹介します。  
@@ -192,7 +192,7 @@ sudo apt-get install ros-indigo-roscpp
 
 ```
 
-###rosmsg
+### rosmsg
 **コマンド書式**  
 `rosmsg option package_name/message_file`
 

@@ -1,4 +1,4 @@
-#ROSの基本的な開発
+# ROSの基本的な開発
 
 ## ROSのワークスペースを作る
 ROSのワークスペースを作ります。以下のコマンドを入力してください。
@@ -356,7 +356,7 @@ height = 480 width = 640 flameID = 5
 height = 480 width = 640 flameID = 6
 ```
 
-##コマンドまとめ
+## コマンドまとめ
 - catkin_make
     - ワークスペース内のパッケージを一括ビルドするコマンド
 - catkin_create_pkg

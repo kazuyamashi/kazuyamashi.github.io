@@ -1,4 +1,4 @@
-#ROSの基本的な開発
+# ROSの基本的な開発
 
 ## ROSのワークスペースを作る
 ROSのワークスペースを作ります。以下のコマンドを入力してください。
@@ -307,7 +307,7 @@ root@localhost:~/ros_ws# rosrun ros_adder adder
 14
 ```
 
-##コマンドまとめ
+## コマンドまとめ
 - catkin_make
 		- ワークスペース内のパッケージを一括ビルドするコマンド
 - catkin_create_pkg
