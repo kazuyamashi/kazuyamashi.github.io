@@ -1,0 +1,108 @@
+colorScheme = "congo"
+defaultAppearance = "light"
+autoSwitchAppearance = true
+enableSearch = true
+enableCodeCopy = false
+disableImageOptimization = false
+disableTextInHeader = false
+highlightCurrentMenuArea = true
+smartTOC = "enable"
+defaultFeaturedImage = ""
+defaultBackgroundImage = "IMG_2661.jpg"
+
+[header]
+layout = "basic"
+
+[footer]
+showMenu = true
+showCopyright = true
+showThemeAttribution = "show"
+showAppearanceSwitcher = true
+showScrollToTop = "show"
+
+[homepage]
+layout = "background"
+showRecent = true
+showRecentItems = "10"
+showMoreLink = true
+showMoreLinkDest = "/posts"
+cardView = true
+cardViewScreenWidth = false
+layoutBackgroundBlur = "enable"
+homepageImage = "IMG_2661.jpg"
+
+[article]
+showDate = "show"
+showViews = false
+showLikes = false
+showDateOnlyInArticle = false
+showDateUpdated = false
+showAuthor = "show"
+showHero = ""
+layoutBackgroundBlur = true
+layoutBackgroundHeaderSpace = false
+showBreadcrumbs = "show"
+showDraftLabel = true
+showEdit = false
+editAppendPath = true
+seriesOpened = false
+showHeadingAnchors = true
+showPagination = true
+invertPagination = true
+showReadingTime = true
+showTableOfContents = "show"
+showTaxonomies = true
+showAuthorsBadges = true
+showWordCount = true
+showZenMode = "show"
+showRelatedContent = true
+relatedContentLimit = "3"
+heroStyle = "background"
+
+[list]
+showHero = true
+layoutBackgroundBlur = true
+layoutBackgroundHeaderSpace = true
+showBreadcrumbs = false
+showSummary = "show"
+showViews = false
+showLikes = false
+showTableOfContents = "show"
+showCards = false
+groupByYear = "treu"
+cardView = false
+cardViewScreenWidth = true
+constrainItemsWidth = false
+heroStyle = "basic"
+
+[sitemap]
+excludedKinds = [ "taxonomy", "term" ]
+
+[taxonomy]
+showTermCount = true
+showHero = "show"
+showBreadcrumbs = false
+showViews = false
+showLikes = false
+showTableOfContents = "show"
+cardView = false
+heroStyle = "basic"
+
+[term]
+showHero = false
+showBreadcrumbs = false
+showViews = false
+showLikes = false
+showTableOfContents = true
+groupByYear = false
+cardView = false
+cardViewScreenWidth = false
+heroStyle = "backgound"
+
+[firebase]
+
+[fathomAnalytics]
+
+[buymeacoffee]
+
+[verification]

@@ -1,0 +1,35 @@
+[[main]]
+none = "none"
+
+[[main]]
+name = "Posts"
+pageRef = "posts"
+identifier = "cq2bmYNtyV"
+weight = 3
+
+[[main]]
+name = "Works"
+pageRef = "works"
+identifier = "8BMgNiZM94"
+weight = 2
+
+[[main]]
+name = "CV"
+pageRef = "cv"
+identifier = "ZZDod91YyZ"
+weight = 1
+
+[[footer]]
+none = "none"
+
+[[footer]]
+name = "Tags"
+pageRef = "tags"
+identifier = "VWzsheaU9C"
+weight = 9999
+
+[[footer]]
+name = "Author"
+pageRef = "authors"
+identifier = "KnO5rf4qgb"
+weight = 9999

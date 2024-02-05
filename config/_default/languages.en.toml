@@ -1,0 +1,20 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "KY portfolio"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+logo = "http://localhost:1313/myface_hu07faf0a052c949ce6bf38222f7652bee_169960_192x192_fill_box_center_3.png"
+description = "hello world"
+secondaryLogo = ""
+
+[author]
+name = "Kazushi Yamashina"
+headline = "Welcome to my page"
+links = [ { github = "https://github.com/kazuyamashi" }, { x-twitter = "https://twitter.com/KazushihsuzaK" } ]
+bio = "Research engineer"
+image = "myface.png"
