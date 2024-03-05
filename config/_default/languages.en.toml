@@ -10,7 +10,7 @@ rtl = false
 dateFormat = "2 January 2006"
 logo = "http://localhost:1313/myface_hu07faf0a052c949ce6bf38222f7652bee_169960_192x192_fill_box_center_3.png"
 description = "hello world"
-secondaryLogo = ""
+secondaryLogo = "IMG_2315.PNG"
 
 [author]
 name = "Kazushi Yamashina"
